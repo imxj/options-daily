@@ -1,67 +1,67 @@
 {
   "date": "2026-04-09",
-  "generated_at": "2026-04-09T15:17:50.944526",
+  "generated_at": "2026-04-09T15:20:25.445261",
   "tickers": {
     "GOOG": {
-      "price": 313.18,
-      "rsi": 54.8,
-      "avg_iv": 34.7,
-      "chg_5d": 6.4,
-      "chg_1m": 2.0,
-      "hi_1m": 314.74,
-      "lo_1m": 273.14,
-      "hi_6m": 344.66,
-      "lo_6m": 237.17,
+      "price": 312.82,
+      "rsi": 54.5,
+      "avg_iv": 36.9,
+      "chg_5d": 6.1,
+      "chg_1m": 2.2,
+      "hi_1m": 319.39,
+      "lo_1m": 271.54,
+      "hi_6m": 349.9,
+      "lo_6m": 236.36,
       "fifty_day": 309.51,
       "two_hundred_day": 266.07,
       "signal": "WAIT",
       "chain_30d": {
-        "expiry": "2026-05-15",
-        "avg_iv_pct": 34.7,
+        "expiry": "2026-05-01",
+        "avg_iv_pct": 36.9,
         "otm_calls": [
           {
-            "strike": 315.0,
-            "bid": 12.15,
-            "ask": 12.3,
-            "impliedVolatility": 0.33075620422363283,
-            "openInterest": 3688
+            "strike": 345.0,
+            "bid": 1.46,
+            "ask": 1.53,
+            "impliedVolatility": 0.332,
+            "openInterest": 163
           },
           {
-            "strike": 320.0,
-            "bid": 9.95,
-            "ask": 10.1,
-            "impliedVolatility": 0.3291693060302734,
-            "openInterest": 11769
+            "strike": 340.0,
+            "bid": 2.1,
+            "ask": 2.21,
+            "impliedVolatility": 0.332,
+            "openInterest": 844
           },
           {
-            "strike": 325.0,
-            "bid": 7.9,
-            "ask": 8.0,
-            "impliedVolatility": 0.32257757507324214,
-            "openInterest": 15790
+            "strike": 350.0,
+            "bid": 1.0,
+            "ask": 1.05,
+            "impliedVolatility": 0.33,
+            "openInterest": 1247
           }
         ],
         "csp_puts": [
           {
-            "strike": 310.0,
-            "bid": 12.85,
-            "ask": 13.0,
-            "impliedVolatility": 0.36749900085449216,
-            "openInterest": 1587
+            "strike": 280.0,
+            "bid": 2.58,
+            "ask": 2.71,
+            "impliedVolatility": 0.442,
+            "openInterest": 608
           },
           {
-            "strike": 305.0,
-            "bid": 10.7,
-            "ask": 10.85,
-            "impliedVolatility": 0.37152728088378906,
-            "openInterest": 20645
+            "strike": 275.0,
+            "bid": 2.0,
+            "ask": 2.1,
+            "impliedVolatility": 0.452,
+            "openInterest": 965
           },
           {
-            "strike": 300.0,
-            "bid": 8.75,
-            "ask": 8.95,
-            "impliedVolatility": 0.37531142272949214,
-            "openInterest": 6629
+            "strike": 285.0,
+            "bid": 3.4,
+            "ask": 3.57,
+            "impliedVolatility": 0.434,
+            "openInterest": 808
           }
         ]
       },
@@ -69,32 +69,25 @@
         "expiry": "2027-03-19",
         "candidates": [
           {
-            "strike": 315.0,
-            "bid": 45.15,
-            "ask": 45.45,
-            "impliedVolatility": 0.3826050509643554,
-            "openInterest": 152
+            "strike": 265.0,
+            "bid": 73.01,
+            "ask": 74.49,
+            "impliedVolatility": 0.425,
+            "openInterest": 8
           },
           {
-            "strike": 310.0,
-            "bid": 47.25,
-            "ask": 48.75,
-            "impliedVolatility": 0.39235531967163084,
-            "openInterest": 383
+            "strike": 270.0,
+            "bid": 69.25,
+            "ask": 70.65,
+            "impliedVolatility": 0.42,
+            "openInterest": 97
           },
           {
-            "strike": 320.0,
-            "bid": 42.85,
-            "ask": 43.15,
-            "impliedVolatility": 0.3806061695861816,
-            "openInterest": 298
-          },
-          {
-            "strike": 305.0,
-            "bid": 48.85,
-            "ask": 51.75,
-            "impliedVolatility": 0.3990233438110352,
-            "openInterest": 377
+            "strike": 260.0,
+            "bid": 76.11,
+            "ask": 77.65,
+            "impliedVolatility": 0.43200000000000005,
+            "openInterest": 55
           }
         ]
       }
@@ -102,63 +95,63 @@
     "NVDA": {
       "price": 183.38,
       "rsi": 55.4,
-      "avg_iv": 33.0,
-      "chg_5d": 3.4,
-      "chg_1m": -0.7,
-      "hi_1m": 186.03,
-      "lo_1m": 165.17,
-      "hi_6m": 207.02,
-      "lo_6m": 165.17,
+      "avg_iv": 31.9,
+      "chg_5d": 4.3,
+      "chg_1m": 0.4,
+      "hi_1m": 188.88,
+      "lo_1m": 164.27,
+      "hi_6m": 212.17,
+      "lo_6m": 164.27,
       "fifty_day": 182.51,
       "two_hundred_day": 179.99,
       "signal": "WAIT",
       "chain_30d": {
-        "expiry": "2026-05-15",
-        "avg_iv_pct": 33.0,
+        "expiry": "2026-05-01",
+        "avg_iv_pct": 31.9,
         "otm_calls": [
           {
-            "strike": 185.0,
-            "bid": 6.6,
-            "ask": 6.65,
-            "impliedVolatility": 0.3177558459472656,
-            "openInterest": 35543
-          },
-          {
-            "strike": 190.0,
-            "bid": 4.35,
-            "ask": 4.4,
-            "impliedVolatility": 0.3051827294921875,
-            "openInterest": 66920
-          },
-          {
             "strike": 195.0,
-            "bid": 2.75,
-            "ask": 2.78,
-            "impliedVolatility": 0.2971261694335937,
-            "openInterest": 75833
+            "bid": 1.33,
+            "ask": 1.4,
+            "impliedVolatility": 0.27699999999999997,
+            "openInterest": 71702
+          },
+          {
+            "strike": 200.0,
+            "bid": 0.64,
+            "ask": 0.67,
+            "impliedVolatility": 0.276,
+            "openInterest": 9070
+          },
+          {
+            "strike": 205.0,
+            "bid": 0.32,
+            "ask": 0.34,
+            "impliedVolatility": 0.282,
+            "openInterest": 6677
           }
         ],
         "csp_puts": [
           {
-            "strike": 180.0,
-            "bid": 6.4,
-            "ask": 6.45,
-            "impliedVolatility": 0.34802898071289057,
-            "openInterest": 44547
-          },
-          {
-            "strike": 175.0,
-            "bid": 4.7,
-            "ask": 4.75,
-            "impliedVolatility": 0.36377589355468753,
-            "openInterest": 30146
-          },
-          {
             "strike": 170.0,
-            "bid": 3.4,
-            "ask": 3.45,
-            "impliedVolatility": 0.38013315185546875,
-            "openInterest": 32946
+            "bid": 2.17,
+            "ask": 2.28,
+            "impliedVolatility": 0.392,
+            "openInterest": 8424
+          },
+          {
+            "strike": 165.0,
+            "bid": 1.4,
+            "ask": 1.47,
+            "impliedVolatility": 0.41100000000000003,
+            "openInterest": 7366
+          },
+          {
+            "strike": 160.0,
+            "bid": 0.91,
+            "ask": 0.96,
+            "impliedVolatility": 0.434,
+            "openInterest": 10754
           }
         ]
       },
@@ -166,96 +159,89 @@
         "expiry": "2027-03-19",
         "candidates": [
           {
-            "strike": 185.0,
-            "bid": 31.35,
-            "ask": 31.55,
-            "impliedVolatility": 0.4565026274108887,
-            "openInterest": 3519
+            "strike": 155.0,
+            "bid": 46.63,
+            "ask": 47.57,
+            "impliedVolatility": 0.483,
+            "openInterest": 361
           },
           {
-            "strike": 180.0,
-            "bid": 33.75,
-            "ask": 33.9,
-            "impliedVolatility": 0.4603935797119141,
-            "openInterest": 3442
+            "strike": 160.0,
+            "bid": 43.96,
+            "ask": 44.84,
+            "impliedVolatility": 0.47700000000000004,
+            "openInterest": 2387
           },
           {
-            "strike": 190.0,
-            "bid": 29.0,
-            "ask": 29.2,
-            "impliedVolatility": 0.4510247769165039,
-            "openInterest": 3560
-          },
-          {
-            "strike": 175.0,
-            "bid": 36.2,
-            "ask": 36.35,
-            "impliedVolatility": 0.46411668701171876,
-            "openInterest": 2610
+            "strike": 150.0,
+            "bid": 50.04,
+            "ask": 51.06,
+            "impliedVolatility": 0.49,
+            "openInterest": 1124
           }
         ]
       }
     },
     "TSLA": {
-      "price": 343.18,
-      "rsi": 35.2,
-      "avg_iv": 47.1,
-      "chg_5d": -4.8,
-      "chg_1m": -14.0,
-      "hi_1m": 407.82,
-      "lo_1m": 343.18,
-      "hi_6m": 489.88,
-      "lo_6m": 343.18,
+      "price": 343.13,
+      "rsi": 35.1,
+      "avg_iv": 49.8,
+      "chg_5d": -10.0,
+      "chg_1m": -13.9,
+      "hi_1m": 416.38,
+      "lo_1m": 337.24,
+      "hi_6m": 498.83,
+      "lo_6m": 337.24,
       "fifty_day": 401.55,
       "two_hundred_day": 397.1,
-      "signal": "SELL CSPs",
+      "signal": "ACCUMULATE",
       "chain_30d": {
-        "expiry": "2026-05-15",
-        "avg_iv_pct": 47.1,
+        "expiry": "2026-05-01",
+        "avg_iv_pct": 49.8,
         "otm_calls": [
           {
-            "strike": 345.0,
-            "bid": 19.1,
-            "ask": 19.25,
-            "impliedVolatility": 0.4613701324462891,
-            "openInterest": 726
+            "strike": 450.0,
+            "bid": 0.37,
+            "ask": 0.39,
+            "impliedVolatility": 0.526,
+            "openInterest": 1887
           },
           {
-            "strike": 350.0,
-            "bid": 16.85,
-            "ask": 16.95,
-            "impliedVolatility": 0.45871512969970707,
-            "openInterest": 3245
+            "strike": 445.0,
+            "bid": 0.43,
+            "ask": 0.45,
+            "impliedVolatility": 0.521,
+            "openInterest": 364
           },
           {
-            "strike": 355.0,
-            "bid": 14.85,
-            "ask": 14.95,
-            "impliedVolatility": 0.45856254333496105,
-            "openInterest": 1510
+            "strike": 455.0,
+            "bid": 0.32,
+            "ask": 0.34,
+            "impliedVolatility": 0.532,
+            "openInterest": 537
           }
         ],
         "csp_puts": [
           {
-            "strike": 340.0,
-            "bid": 19.3,
-            "ask": 19.4,
-            "impliedVolatility": 0.48340360351562506,
-            "openInterest": 5617
+            "strike": 325.0,
+            "bid": 10.0,
+            "ask": 10.5,
+            "impliedVolatility": 0.528,
+            "openInterest": 592
           },
           {
-            "strike": 335.0,
-            "bid": 16.95,
-            "ask": 17.1,
-            "impliedVolatility": 0.4866384344482422,
-            "openInterest": 1886
+            "strike": 320.0,
+            "bid": 8.45,
+            "ask": 8.87,
+            "impliedVolatility": 0.535,
+            "openInterest": 880
           },
           {
-            "strike": 330.0,
-            "bid": 14.95,
-            "ask": 15.05,
-            "impliedVolatility": 0.4914296463012696,
-            "openInterest": 7427
+            "strike": 315.0,
+            "bid": 7.1,
+            "ask": 7.46,
+            "impliedVolatility": 0.541,
+            "openInterest": 628
           }
         ]
       },
@@ -263,32 +249,25 @@
         "expiry": "2027-03-19",
         "candidates": [
           {
-            "strike": 340.0,
-            "bid": 70.4,
-            "ask": 71.45,
-            "impliedVolatility": 0.5289201161193848,
-            "openInterest": 185
+            "strike": 290.0,
+            "bid": 96.06,
+            "ask": 98.0,
+            "impliedVolatility": 0.555,
+            "openInterest": 71
           },
           {
-            "strike": 350.0,
-            "bid": 65.8,
-            "ask": 67.15,
-            "impliedVolatility": 0.5250444224548338,
-            "openInterest": 383
+            "strike": 300.0,
+            "bid": 90.24,
+            "ask": 92.06,
+            "impliedVolatility": 0.547,
+            "openInterest": 439
           },
           {
-            "strike": 330.0,
-            "bid": 74.85,
-            "ask": 76.15,
-            "impliedVolatility": 0.5321396884155273,
-            "openInterest": 113
-          },
-          {
-            "strike": 360.0,
-            "bid": 62.1,
-            "ask": 62.9,
-            "impliedVolatility": 0.5232591619873046,
-            "openInterest": 244
+            "strike": 280.0,
+            "bid": 102.15,
+            "ask": 104.21,
+            "impliedVolatility": 0.563,
+            "openInterest": 104
           }
         ]
       }
