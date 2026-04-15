@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-04-15",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "330.22"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "199.69"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "388.16"
+      }
+    ],
+    "summary": [
+      "GOOG overbought RSI 76.6: don't chase, sell CSP at $305 (50-DMA) or CC at $350 (ATH)",
+      "NVDA approaching overbought RSI 71.9: sell CSP at $180 (50/200 DMA confluence), CC at $215",
+      "TSLA best setup: fat IV 48% + 22% pullback, sell CSP at $350 for $850 premium",
+      "LEAPs: TSLA monitoring (2/6) - weekly RSI stabilizing + 22% pullback. GOOG/NVDA no setup"
+    ],
+    "body": "OPTIONS ANALYSIS REPORT - 2026-04-15\n==================================================\nTickers: GOOG, NVDA, TSLA\nData source: yfinance (live market data)\nNOT FINANCIAL ADVICE\n\n==================================================\n1) STRATEGY SELECTOR\n==================================================\n\nGOOG $330.22 | IV: 36.5% | RSI(D): 76.6 | RSI(W): 50.4\nConviction: MODERATE (strong bounce from tariff selloff)\n- IV moderate (~36%), not cheap or expensive\n- RSI daily OVERBOUGHT (76.6) - ripped from $316->$330 in 2 days\n- RECOMMENDATION: WAIT. Don't chase. RSI overbought + 5-day +4.4% = poor entry. Let it consolidate to $315-320. If must act, cash-secured put at support only.\n\nNVDA $199.69 | IV: 34.1% | RSI(D): 71.9 | RSI(W): 59.0\nConviction: MODERATE-HIGH (AI infra leader, near highs)\n- IV relatively low at 34% - puts cheap, LEAPs reasonable\n- RSI daily 71.9 = approaching overbought\n- RECOMMENDATION: Edge for selling CSP. Wait for 3-5% pullback to $190 before entering. If must sell put today, go deep OTM $170-175.\n\nTSLA $388.16 | IV: 47.8% | RSI(D): 50.8 | RSI(W): 33.4\nConviction: MODERATE (huge +6.6% bounce, weekly still weak)\n- IV ELEVATED at 48% - premium rich for sellers\n- Weekly RSI 33.4 = near oversold on weekly\n- RECOMMENDATION: CASH-SECURED PUT is best. High IV = fat premiums. Weekly oversold = floor forming. Do NOT buy LEAPs at 48% IV.\n\n==================================================\n2) CASH-SECURED PUT STRIKE FINDER\n==================================================\n\nGOOG $330.22 -> May 15 (30 DTE)\nSupport: $306.92 (50-DMA), $270.94 (200-DMA)\n- $305 strike: bid $4.35 | ~7.6% OTM | basis $300.65 | OI: 20,910\n- $295 strike: bid $2.81 | ~10.6% OTM | basis $292.19\n- $285 strike: bid $1.77 | ~13.7% OTM | basis $283.23\nBEST: $305 - at 50-DMA support, $435/contract, happy to own at $300.65\n\nNVDA $199.69 -> May 15 (30 DTE)\nSupport: $182.40 (50-DMA), $181.32 (200-DMA)\n- $180 strike: bid $1.89 | ~9.9% OTM | basis $178.11 | OI: 54,030\n- $175 strike: bid $1.30 | ~12.4% OTM | basis $173.70\n- $170 strike: bid $0.89 | ~14.9% OTM | basis $169.11\nBEST: $180 - 50/200 DMA confluence, massive liquidity, $189/contract\n\nTSLA $388.16 -> May 15 (30 DTE)\nSupport: $337.24 (6mo low), below both 50 & 200 DMA\n- $350 strike: bid $8.50 | ~9.8% OTM | basis $341.50 | OI: 12,014\n- $340 strike: bid $6.25 | ~12.4% OTM | basis $333.75\n- $360 strike: bid $11.55 | ~7.3% OTM | basis $348.45\nBEST: $350 - below panic lows, $850 premium, basis $341.50. IV makes it fat.\n\n==================================================\n3) COVERED CALL TIMING\n==================================================\n\nGOOG - RSI(D): 76.6 OVERBOUGHT | Resistance: $349.90 (52wk high)\n- $350 strike (May 15): bid $6.95 | $695/contract\n- YES, good time. RSI overbought = likely to stall. $350 at ATH resistance is ideal.\n\nNVDA - RSI(D): 71.9 | Resistance: $212.17 (52wk high)\n- $215 strike (May 15): bid $2.61 | $261/contract\n- MILD YES. Near overbought but still trending. $215 at ATH is reasonable for income. If very bullish, wait.\n\nTSLA - RSI(D): 50.8 NEUTRAL | Resistance: $398 (200-DMA), $499 (52wk high)\n- $420 strike (May 15): bid $8.40 | $840/contract\n- $430 strike: bid $6.40 | $640/contract\n- YES (conservative). Below both MAs which act as resistance. Fat IV premium.\n\n==================================================\n4) LEAP ENTRY MONITOR (Jun 17, 2027 ~427 DTE)\n==================================================\n\nGOOG $330.22 | Score: 1/6 [NO SETUP]\nRSI(D) 76.6 X | RSI(W) 50.4 X | 21.9% above 200-DMA X | IV ~36.5% X | Chain liquid OK | Pullback 5.6% X\n-> Near highs. No LEAP setup.\n\nNVDA $199.69 | Score: 1/6 [NO SETUP]\nRSI(D) 71.9 X | RSI(W) 59.0 X | 10.1% above 200-DMA X | IV ~34.1% X | Chain liquid OK | Pullback 5.9% X\n-> Near ATH. No LEAP setup.\n\nTSLA $388.16 | Score: 2/6 [MONITORING]\nRSI(D) 50.8 X | RSI(W) 33.4 stabilizing OK | 2.5% below 200-DMA ~OK | IV ~47.8% too high X | Chain liquid OK | Pullback 22.2% OK\n-> 2 signals (weekly RSI + 22% pullback). Missing: IV too high, daily RSI not oversold. Wait for IV < 35% and RSI(D) <= 35.\n\n==================================================\nQUICK SUMMARY\n==================================================\n\nGOOG $330.22 - Overbought, don't chase. Sell CSP at $305 (50-DMA) or CC at $350 (ATH). No LEAP.\nNVDA $199.69 - Strong, approaching overbought. Sell CSP at $180 (50/200 DMA). CC at $215 for income.\nTSLA $388.16 - Most interesting today. Fat IV = great for selling CSP at $350. CC at $420-430 solid.\n\nTOP TRADE: TSLA $350 CSP (May 15) - $850 premium, 9.8% OTM, effective basis $341.50.\n\nNot financial advice. Do your own research."
+  },
+  {
     "date": "2026-04-14",
     "prices": [
       {
