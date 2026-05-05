@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-05-05",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "384.85"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "196.99"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "393.67"
+      }
+    ],
+    "summary": [
+      "GOOG CC 🟢 4/4 BEST: sell $405c Jun5, RSI 81+weekly 62, IV rank 97%",
+      "NVDA all marginal 🟡: IV 62nd elevated but RSI 48 mid-range, no trigger",
+      "TSLA LEAPS 🟢 5/6 ALERT persists: $430c Jun27, 21% pullback, IV cheap 29th, weekly stabilizing",
+      "Action: GOOG CC green-light (4/4). TSLA LEAPS rare 5/6 signal — scale in consideration."
+    ],
+    "body": "📊 DAILY OPTIONS ANALYSIS\n📅 2026-05-05 (Monday)\n\n══════════════════════════════════════════\n═══ GOOG — $384.85 ═══\n\n📈 KEY METRICS:\n• Price: $384.85 | 52W: $148.97–$388.96\n• 200-day MA: $283.00 (+36.0% above MA)\n• Daily RSI: 81.0 | Weekly RSI: 61.6\n• IV Rank: ~97th pctl | ATM IV: ~31%\n• Pullback from 52W high: -1.1%\n\n1️⃣ STRATEGY SELECTOR\nIV extremely elevated (97th pctl) + RSI overbought = SELL COVERED CALLS.\n\n2️⃣ CSP — Score: 1/4 → 🔴 SKIP\n✅ IV Rank 97% | ❌ RSI 81 (need ≤40) | ❌ +36% above 200MA | ❌ Premium 0.56%\nWait for pullback to RSI ≤ 40.\n\n3️⃣ CC — Score: 4/4 → 🟢 GOOD SETUP\n✅ IV 97% | ✅ RSI 81 | ✅ Weekly 62 | ✅ Premium 3.56%\n→ SELL $405c Jun5 (31 DTE): $6.19 premium (1.61% yield)\n  $400c: $7.36 (1.91%) | $410c: $4.85 (1.26%)\n\n4️⃣ LEAPS — Score: 1/6 🔴 NO SETUP\nAt ATH with max IV. Wait for 15%+ correction.\n\n══════════════════════════════════════════\n═══ NVDA — $196.99 ═══\n\n📈 KEY METRICS:\n• Price: $196.99 | 52W: $110.79–$216.83\n• 200-day MA: $184.09 (+7.0% above MA)\n• Daily RSI: 48.1 | Weekly RSI: 53.1\n• IV Rank: ~62nd pctl | ATM IV: ~45%\n• Pullback from 52W high: -9.2%\n\n1️⃣ STRATEGY SELECTOR\nIV elevated but RSI mid-range. No clear trigger. WAIT.\n\n2️⃣ CSP — Score: 2/4 → 🟡 MARGINAL\n✅ IV 62% | ❌ RSI 48 (not oversold) | ❌ +7% above 200MA | ✅ Premium 1.52%\nWait for dip to $185. Best: $180p Jun5 = $3.70 (2.06%)\n\n3️⃣ CC — Score: 2/4 → 🟡 MARGINAL\n✅ IV 62% | ❌ RSI 48 (room to run) | ❌ Weekly 53 | ✅ Premium 4.52%\nDon't cap upside — stock mid-range.\n\n4️⃣ LEAPS — Score: 1/6 🔴 NO SETUP\nNeed $170-175 with IV rank <30.\n\n══════════════════════════════════════════\n═══ TSLA — $393.67 ═══\n\n📈 KEY METRICS:\n• Price: $393.67 | 52W: $271.00–$498.83\n• 200-day MA: $403.18 (–2.4% below MA)\n• Daily RSI: 51.1 | Weekly RSI: 40.2\n• IV Rank: ~29th pctl | ATM IV: ~42%\n• Pullback from 52W high: -21.1%\n\n1️⃣ STRATEGY SELECTOR\nIV LOW (29th) — worst for selling. LEAPS aligned.\n\n2️⃣ CSP — Score: 2/4 → 🟡 MARGINAL\n❌ IV 29% (too low) | ❌ RSI 51 | ✅ Near 200MA | ✅ Premium 1.09%\nSkip — not compensated for TSLA risk.\n\n3️⃣ CC — Score: 1/4 → 🔴 SKIP\n❌ IV 29% | ❌ RSI 51 | ❌ Weekly 40 OVERSOLD | ✅ Premium OK\nDON'T cap recovery upside!\n\n4️⃣ LEAPS — Score: 5/6 🟢 LEAPS ALERT!\n❌ Daily RSI 51 > 35 | ✅ Weekly stabilizing | ✅ Near 200MA | ✅ IV 29% cheap | ✅ Liquid | ✅ 21% pullback\n→ $430c Jun2027 (408 DTE): ~$97.80 premium\n  Breakeven: $527.80 | Max risk: $9,780/contract\n  Scale: 1/2 now, 1/2 if RSI <35\n  Exit if: TSLA loses $320\n\n══════════════════════════════════════════\nQUICK SUMMARY TABLE\n\n| Ticker | CSP | CC | LEAPS | Best Action Today |\n|--------|-----|-----|-------|-------------------|\n| GOOG $385 | 🔴 1/4 skip | 🟢 4/4 $405c | 🔴 1/6 | Sell CC $405 Jun5 |\n| NVDA $197 | 🟡 2/4 wait | 🟡 2/4 hold | 🔴 1/6 | Wait — IV good but RSI mid |\n| TSLA $394 | 🟡 2/4 skip | 🔴 1/4 DON'T | 🟢 5/6 ALERT! | LEAPS $430c Jun27 |\n\n🏆 Top Pick: GOOG CC $405 Jun5 (4/4 score, 1.61% yield, 31 DTE)\n🚨 Alert: TSLA LEAPS $430c Jun2027 (5/6 — rare signal persists day 2)\n⏳ Watch: NVDA — elevated IV, wait for RSI pullback to unlock CSP\n\nNot financial advice. Generated: 2026-05-05"
+  },
+  {
     "date": "2026-05-04",
     "prices": [
       {
