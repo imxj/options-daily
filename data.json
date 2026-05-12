@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-05-12",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "384.90"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "215.37"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "427.30"
+      }
+    ],
+    "summary": [
+      "GOOG CC 🟢 4/4 BEST: sell $405c Jun12, RSI 79.1+weekly 64.8, IV rank 61%",
+      "NVDA CC 🟡 3/4 borderline: sell $230c Jun12, RSI 59.6 (1 tick below 60), IV rank 100%",
+      "TSLA ALL 🟡 WAIT: LEAPS signal dead (5/6→4/6→3/6), bounce killed setup, no edge",
+      "Action: GOOG CC top pick (1.62% yield). NVDA CC borderline (3.16%). TSLA wait — no strategy triggers."
+    ],
+    "body": "📊 DAILY OPTIONS ANALYSIS\n📅 2026-05-12 (Monday)\n\n══════════════════════════════════════════\n═══ GOOG — $384.90 ═══\n\n📈 KEY METRICS:\n• Price: $384.90 | 52W: $159.03–$397.05\n• 200-day MA: $288.00 (+33.6% above MA)\n• Daily RSI: 79.1 | Weekly RSI: 64.8\n• IV Rank: ~61st pctl | ATM IV: ~32% | RV30: 37.3%\n• Pullback from 52W high: -3.1%\n\n1️⃣ STRATEGY SELECTOR\nIV elevated (61st pctl) + RSI overbought (79.1) + weekly extended (64.8) = SELL COVERED CALLS.\nDon’t sell puts into strength near ATH. Don’t buy LEAPS at max extension.\n→ SELL COVERED CALLS if you own shares.\n\n2️⃣ CSP — Score: 2/4 → 🟡 MARGINAL\n✅ IV Rank 61% | ❌ RSI 79.1 (need ≤40) | ❌ +33.6% above 200MA | ✅ Premium 1.34%\nSkip — stock massively extended above support.\nBest available: $360p Jun12 (31 DTE) = $4.81 (1.34%), cost basis $355.19\n\n3️⃣ CC — Score: 4/4 → 🟢 GOOD SETUP\n✅ IV 61% | ✅ RSI 79.1 | ✅ Weekly 64.8 | ✅ Premium 1.62%\n→ SELL $405c Jun12 (31 DTE): $6.25 premium (1.62% yield), OI: 92\n  Aggressive: $400c $7.85 (2.04%) | Conservative: $410c $5.20 (1.35%)\n  If called at $405: comfortable exit given +33.6% above MA\n\n4️⃣ LEAPS — Score: 1/6 🔴 NO SETUP\nAt near-ATH with elevated IV. Need 15%+ correction to ~$335 with IV rank <30.\n\n══════════════════════════════════════════\n═══ NVDA — $215.37 ═══\n\n📈 KEY METRICS:\n• Price: $215.37 | 52W: $122.97–$219.44\n• 200-day MA: $185.15 (+16.3% above MA)\n• Daily RSI: 59.6 | Weekly RSI: 64.2\n• IV Rank: ~100th pctl | ATM IV: ~45.9% | RV30: 36.6%\n• Pullback from 52W high: -1.9%\n\n1️⃣ STRATEGY SELECTOR\nIV extremely elevated (≥100th pctl) + RSI approaching overbought + weekly confirming.\nPremium is rich. Sell premium.\n→ SELL COVERED CALLS if shares owned. CSP marginal (not oversold).\n\n2️⃣ CSP — Score: 2/4 → 🟡 MARGINAL\n✅ IV ~100% | ❌ RSI 59.6 | ❌ +16.3% above 200MA | ✅ Premium 2.17%\nSkip — premium fat but stock near ATH, not in pullback.\nBest if forced: $200p Jun12 = $4.35 (2.17%), cost basis $195.65, OI: 2,848\n\n3️⃣ CC — Score: 3/4 → 🟡 MARGINAL (borderline 🟢)\n✅ IV ~100% | ❌ RSI 59.6 (1 tick below 60) | ✅ Weekly 64.2 | ✅ Premium 3.16%\nCaution: stock near $219 ATH resistance.\n→ IF proceeding: SELL $230c Jun12 (31 DTE): $6.80 (3.16%), OI: 1,161\n  Aggressive: $225c $8.65 (4.02%) | Conservative: $235c $5.46 (2.54%)\n\n4️⃣ LEAPS — Score: 1/6 🔴 NO SETUP\nNear ATH with highest IV rank. LEAPS = overpaying. Need $180 area with IV rank <30.\n\n══════════════════════════════════════════\n═══ TSLA — $427.30 ═══\n\n📈 KEY METRICS:\n• Price: $427.30 | 52W: $284.70–$489.88\n• 200-day MA: $405.64 (+5.3% above MA)\n• Daily RSI: 66.5 | Weekly RSI: 54.0\n• IV Rank: ~39th pctl | ATM IV: ~46.4% | RV30: 44.9%\n• Pullback from 52W high: -12.8%\n\n1️⃣ STRATEGY SELECTOR\nIV borderline low (39th pctl). RSI upper-mid but not overbought. Weekly mid-range.\n→ WAIT. No clear edge. Recovery bounce underway but no strategy fully triggered.\n\n2️⃣ CSP — Score: 2/4 → 🟡 MARGINAL\n❌ IV 39th | ❌ RSI 66.5 | ✅ Near 200MA | ✅ Premium 2.51%\nSkip — not compensated for TSLA risk at this IV.\n\n3️⃣ CC — Score: 2/4 → 🟡 MARGINAL\n❌ IV 39th | ✅ RSI 66.5 | ❌ Weekly 54.0 | ✅ Premium 3.20%\nDon’t cap recovery upside on mid-range stock.\n\n4️⃣ LEAPS — Score: 3/6 → 🟡 MONITORING (was 🟢 4/6 May 7, 5/6 May 5)\nLEAPS window CLOSED. Signal degraded 5/6→4/6→3/6 as:\n  • RSI bounced 51→66.5 (lost oversold)\n  • Pullback narrowed 21%→12.8% (lost ≥15%)\n  • IV rank rising 29th→39th (lost cheap IV)\nNext opportunity requires new pullback to $350-380.\n\n══════════════════════════════════════════\nQUICK SUMMARY TABLE\n\n| Ticker | CSP | CC | LEAPS | Best Action Today |\n|--------|-----|-----|-------|-------------------|\n| GOOG $385 | 🟡 2/4 skip | 🟢 4/4 $405c | 🔴 1/6 | Sell CC $405 Jun12 (1.62%) |\n| NVDA $215 | 🟡 2/4 skip | 🟡 3/4 $230c | 🔴 1/6 | CC borderline — $230 Jun12 (3.16%) |\n| TSLA $427 | 🟡 2/4 skip | 🟡 2/4 hold | 🟡 3/6↓ | WAIT — no edge, LEAPS window closed |\n\n🏆 Top Picks:\n1. GOOG CC $405 Jun12 (4/4 score, 1.62% yield, 31 DTE) — overbought + elevated IV = textbook CC\n2. NVDA CC $230 Jun12 (3/4 borderline, 3.16% yield) — best premium but RSI 1 tick below threshold\n📉 Alert: TSLA LEAPS signal DEAD (5/6→4/6→3/6 in one week) — bounce killed the setup\n⏳ Watch: NVDA daily RSI — if crosses 60, CC goes full green. TSLA needs new pullback for any action.\n\nNot financial advice. Generated: 2026-05-12"
+  },
+  {
     "date": "2026-05-07",
     "prices": [
       {
