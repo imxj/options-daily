@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-06-01",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "372.43"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "219.90"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "422.82"
+      }
+    ],
+    "summary": [
+      "GOOG CSP [Y] 2/4: RSI 37.7 attractive pullback, but premium too thin at safe OTM strikes",
+      "NVDA All [R] 0/4: IV at 52-week lows (~0th pctl), zero edge in premium selling. LEAPS 2/6 monitoring.",
+      "TSLA LEAPS [Y] 3/6: Closest to setup - near 200MA, IV cheap, liquid chain. Wait for RSI<35 at $400-410.",
+      "Action: NO TRADES - all lack full setup. TSLA LEAPS developing, patience required."
+    ],
+    "body": "DAILY OPTIONS ANALYSIS - 2026-06-01\n\n======= GOOG - $372.43 =======\nTechnicals: RSI 37.7 | Weekly RSI 65.7 | Below 20-MA ($387) | Above 50-MA ($346) & 200-MA ($300)\nIV: ~32% ATM | Pullback: 8.1% from 52w high ($404)\n\n[1] STRATEGY SELECTOR:\nStock in daily pullback within longer-term uptrend. IV moderate ~32%. Best fit: WAIT or cautious CSP if wanting to add on pullback.\n\n[2] CSP ENTRY CONDITIONS:\n- IV Rank >=40th: ~40th (borderline) [check]\n- Daily RSI <=40: 37.7 [check]\n- Price near support: 7.5% above 50-MA [X]\n- Premium >=1%/30 DTE: $350P Jun18 = 0.025% [X]\nSignal: MARGINAL 2/4 - RSI attractive but premium too thin at safe strikes.\n\n[3] COVERED CALL ENTRY CONDITIONS:\n- IV Rank: borderline [check]\n- Daily RSI >=60: 37.7 [X]\n- Weekly RSI overbought: 65.7 moderate [X]\n- Premium >=0.8%: $390 Jun18 bid=$3.85/372 = 1.0% [check]\nSignal: SKIP 1-2/4 - Stock in pullback, not extended.\n\n[4] LEAPS MONITOR:\nGOOG $372.43 | Score: 1/6 [RED] | RSI(37.7/65.7), IV~40th, 24% above 200MA, Pullback 8.1%\nNo setup - needs deeper pullback and lower IV.\n\n======= NVDA - $219.90 =======\nTechnicals: RSI 50.3 | Weekly RSI 68.3 | Above all MAs | Strong uptrend\nIV: ~25% ATM (LOW) | Pullback: 7.1% from 52w high ($236)\n\n[1] STRATEGY SELECTOR:\nNeutral RSI, healthy uptrend, IV very low. Premium selling NOT attractive. Best fit: DO NOTHING.\n\n[2] CSP ENTRY CONDITIONS:\n- IV Rank >=40th: ~0th pctile [X]\n- Daily RSI <=40: 50.3 [X]\n- Price near support: above all MAs [X]\n- Premium >=1%: negligible [X]\nSignal: SKIP 0/4 - IV at 52-week lows. Zero edge selling premium.\n\n[3] COVERED CALL ENTRY CONDITIONS:\n- IV Rank: 0th pctile [X]\n- Daily RSI >=60: 50.3 [X]\n- Weekly RSI: 68.3 elevated not extreme [X]\n- Premium: ~0.6% for 4 DTE [X]\nSignal: SKIP 0/4 - IV too low. Would give away upside for pennies.\n\n[4] LEAPS MONITOR:\nNVDA $219.90 | Score: 2/6 [YELLOW] | RSI(50.3/68.3), IV~0th, 17% above 200MA, Pullback 7.1%\nMONITORING - IV cheap but no pullback. Trigger: 10-15% pullback with IV staying low.\n\n======= TSLA - $422.82 =======\nTechnicals: RSI 40.9 | Weekly RSI 54.8 | At 20-MA ($423) | Above 50-MA ($393) & 200-MA ($413)\nIV: ~42% ATM | Pullback: 6.7% from 52w high ($453) | P/E: 388x\n\n[1] STRATEGY SELECTOR:\nMild pullback to 20-MA, moderate IV. TSLA IV rank LOW for this name. Best fit: MONITOR for CSP if dips further, watchlist LEAPS.\n\n[2] CSP ENTRY CONDITIONS:\n- IV Rank >=40th: ~15th pctile for TSLA [X]\n- Daily RSI <=40: 40.9 barely misses [X]\n- Price near support: 200-MA at $413, 2.3% below [check]\n- Premium >=1%: thin at safe strikes [X]\nSignal: SKIP 1/4 - IV rank too low for TSLA standards.\n\n[3] COVERED CALL ENTRY CONDITIONS:\n- IV Rank: ~15th [X]\n- Daily RSI >=60: 40.9 [X]\n- Weekly RSI: 54.8 neutral [X]\n- Premium: Jun5 $440C = 0.61%/4DTE marginal [~]\nSignal: SKIP 0-1/4 - Stock in pullback, selling calls into weakness.\n\n[4] LEAPS MONITOR:\nTSLA $422.82 | Score: 3/6 [YELLOW] | RSI(40.9/54.8), IV~15th, 2.3% above 200MA, Pullback 6.7%\nMONITORING - 3 conditions met! Close to support, low IV, liquid chain. Trigger: $400-410 with RSI<35.\n\n===== QUICK SUMMARY =====\n\nTicker | CSP | CC | LEAPS | Best Action\nGOOG | [Y] 2/4 RSI ok, premium thin | [R] 1/4 pullback | [R] 1/6 | Wait deeper dip\nNVDA | [R] 0/4 IV dead | [R] 0/4 IV dead | [Y] 2/6 IV cheap | Do nothing\nTSLA | [R] 1/4 IV rank low | [R] 0/4 pullback | [Y] 3/6 developing | Monitor $400-410\n\nVERDICT: NO TRADES TODAY. All three lack setup for immediate action.\n\nNEXT TRIGGERS:\n- GOOG: RSI <35 + VIX spike -> CSP opportunity\n- NVDA: 10%+ pullback with IV still low -> LEAPS entry\n- TSLA: Drop to $400-410 with RSI <35 -> LEAPS alert\n\nNot financial advice."
+  },
+  {
     "date": "2026-05-22",
     "prices": [
       {
