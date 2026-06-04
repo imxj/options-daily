@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-06-04",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "367.42"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "215.90"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "419.39"
+      }
+    ],
+    "summary": [
+      "GOOG CSP 🟡 3/4: RSI 27.7 deeply oversold + IV 53rd, but 21% above 200-MA. $345P Jul02 viable if bullish.",
+      "NVDA CSP 🟡 3/4: IV 68th pctl! RSI 32.8 oversold. $200P Jul02 bid $3.20 (1.60% yield, 7.4% OTM). Fat premium.",
+      "TSLA LEAPS 🟢 4/6 ALERT: -15.9% pullback, 1.3% above 200-MA, IV cheap 28th pctl. $460C Jun'27 ~$70.",
+      "Action: TSLA LEAPS top pick — rare 🟢 alert. NVDA CSP runner-up (best premium). GOOG CSP acceptable."
+    ],
+    "body": "DAILY OPTIONS ANALYSIS — 2026-06-04\nNot financial advice.\n\n═══════════════════════════════════════\n📌 GOOG — $367.42\n═══════════════════════════════════════\n1W: -4.84% | 1M: -4.39% | From 52W High: -9.2%\nDaily RSI: 27.7 | Weekly RSI: 64.3\nHV20: 28.9% | IV Rank: ~53rd pctl | IV: 32.7%\nMA20: $383.23 | MA50: $350.28 | MA200: $302.64\nDist to 200-MA: +21.4% | Dist to 50-MA: +4.9%\n\n[1] STRATEGY SELECTOR:\nStock in steep daily pullback (RSI 27.7 — deeply oversold). IV moderate-elevated (53rd pctl). Weekly RSI 64 still healthy. Best fit: CSP into weakness if bullish, or wait for bounce confirmation.\n\n[2] CSP ENTRY CONDITIONS:\n✅ IV Rank ≥40th: YES (53rd pctl)\n✅ Daily RSI ≤40: YES (27.7 — deeply oversold!)\n❌ Price near support: NO (+21.4% above 200-MA, +4.9% above 50-MA)\n✅ Premium ≥1%: YES ($345P bid $4.00 = 1.16%)\nSignal: 🟡 MARGINAL 3/4 — RSI & IV excellent, but no nearby major support. 50-MA at $350 is closest.\nStrikes: $345P Jul02 — bid $4.00 (1.16% yield, 6.1% OTM). Effective basis $341.\n\n[3] COVERED CALL ENTRY CONDITIONS:\nSignal: 🔴 SKIP 2/4 — Stock is oversold (RSI 27.7). Don't cap upside in a pullback.\n\n[4] LEAPS MONITOR:\nGOOG $367.42 | Score: 2/6 🟡 MONITORING\nDaily RSI oversold + chain liquid, but price far above support, IV not cheap, pullback only -9.2%.\n\n═══════════════════════════════════════\n📌 NVDA — $215.90\n═══════════════════════════════════════\n1W: +0.77% | 1M: +9.87% | From 52W High: -8.7%\nDaily RSI: 32.8 | Weekly RSI: 67.3\nHV20: 39.8% | IV Rank: ~68th pctl | IV: 38.4%\nMA20: $219.29 | MA50: $202.86 | MA200: $188.40\nDist to 200-MA: +14.6% | Dist to 50-MA: +6.4%\n\n[1] STRATEGY SELECTOR:\nHigh IV (68th pctl) — premium selling attractive. Daily RSI 32.8 oversold. Best fit: CSP with fat premium.\n\n[2] CSP ENTRY CONDITIONS:\n✅ IV Rank ≥40th: YES (68th pctl — excellent!)\n✅ Daily RSI ≤40: YES (32.8 — oversold)\n❌ Price near support: NO (+14.6% above 200-MA)\n✅ Premium ≥1%: YES ($200P bid $3.20 = 1.60%)\nSignal: 🟡 MARGINAL 3/4 — IV and RSI excellent, premium very strong at $200 strike. No hard support nearby though.\nStrikes: $200P Jul02 — bid $3.20 (1.60% yield, 7.4% OTM). Effective basis $196.80.\n\n[3] COVERED CALL ENTRY CONDITIONS:\nSignal: 🟡 MARGINAL 2-3/4 — IV perfect for selling but daily RSI oversold. Wait for RSI 60+ before selling calls.\n\n[4] LEAPS MONITOR:\nNVDA $215.90 | Score: 2/6 🟡 MONITORING\nDaily oversold + liquid chain, but IV too high (68th pctl — LEAPS expensive) and price far above support.\n\n═══════════════════════════════════════\n📌 TSLA — $419.39\n═══════════════════════════════════════\n1W: -5.14% | 1M: +7.71% | From 52W High: -15.9%\nDaily RSI: 39.7 | Weekly RSI: 53.9\nHV20: 42.5% | IV Rank: ~28th pctl | IV: 45.0%\nMA20: $426.96 | MA50: $395.21 | MA200: $413.84\nDist to 200-MA: +1.3% | Dist to 50-MA: +6.1%\n\n[1] STRATEGY SELECTOR:\nTSLA at critical juncture — right on 200-MA ($413.84, 1.3% above). IV cheap (28th pctl). Weekly neutral. This is a LEAPS environment — IV cheap + price at support + -15.9% pullback.\n\n[2] CSP ENTRY CONDITIONS:\n❌ IV Rank ≥40th: NO (28th pctl — IV too low)\n✅ Daily RSI ≤40: YES (39.7 — borderline)\n✅ Price near support: YES (1.3% above 200-MA!)\n❌ Premium ≥1%: BORDERLINE\nSignal: 🟡 MARGINAL 2-3/4 — Great support, but IV too low. Not paid enough premium.\n\n[3] COVERED CALL ENTRY CONDITIONS:\nSignal: 🔴 SKIP 1/4 — Stock pulling back, IV low, RSI oversold. Don't cap upside.\n\n[4] LEAPS MONITOR:\nTSLA $419.39 | Score: 4/6 🟢 LEAPS ALERT!\n✅ Weekly RSI stabilizing (53.9 neutral)\n✅ Price within 5% of 200-MA (1.3%!)\n✅ IV Rank below 30th (28th — options CHEAP)\n✅ Options chain liquid\n✅ Pullback ≥15% (-15.9%!)\n❌ Daily RSI ≤35: NO (39.7 — close)\n\nLEAPS Entry Plan:\n• Strike: $460 (~10% OTM)\n• Expiry: Jun 2027 (380+ DTE)\n• Est. premium: ~$65-75/contract\n• Breakeven: ~$525-535\n• Max risk: Full premium (~$6,500-7,500)\n• Sizing: 2-3% of portfolio\n• Thesis breakers: Loss of 200-MA on weekly close\n\n═══════════════════════════════════════\n📋 QUICK SUMMARY TABLE\n═══════════════════════════════════════\n| Ticker | CSP | CC | LEAPS | Best Action |\n|--------|-----|-----|-------|-------------|\n| GOOG | 🟡 3/4 RSI 27.7+IV 53rd | 🔴 SKIP | 🟡 2/6 | CSP $345P if bullish |\n| NVDA | 🟡 3/4 IV 68th! juicy | 🟡 2-3/4 wait | 🟡 2/6 | CSP $200P best r/r |\n| TSLA | 🟡 2-3/4 IV low | 🔴 SKIP | 🟢 4/6 ALERT! | LEAPS $460C Jun'27 🏆 |\n\n🏆 TOP PICK: TSLA LEAPS $460C Jun'27 ~$70. Rare 🟢 alert.\nRunner-up: NVDA CSP $200P — 68th pctl IV, 1.60% yield."
+  },
+  {
     "date": "2026-06-02",
     "prices": [
       {
