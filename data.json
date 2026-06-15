@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-06-15",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "369.23"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "211.49"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "409.67"
+      }
+    ],
+    "summary": [
+      "GOOG CSP 🟡 2/4: IV cooled to ~35th, RSI recovered to 40.3. Last week's 🟢 window closed. WAIT.",
+      "NVDA CSP 🟡 2/4: IV 28th < HV 44% (selling cheap). RSI 47.8 neutral. Watch $195 for LEAPS trigger.",
+      "TSLA LEAPS 🟢 4/6 ALERT: -17.9% pullback, AT 200-MA, weekly stabilizing. $450C Jun'27 ~$74.",
+      "Action: TSLA LEAPS top pick (persistent 🟢). All CSPs downgraded from last week. CCs all 🔴 SKIP."
+    ],
+    "body": "DAILY OPTIONS ANALYSIS — 2026-06-15\nNot financial advice.\n\n═══════════════════════════════════════\n📌 GOOG — $369.23\n═══════════════════════════════════════\n1W: +2.2% | 1M: -7.0% | From 52W High: -8.7%\nDaily RSI: 40.3 | Weekly RSI: 66.9\nHV30: 29.2% | ATM IV: 30.1% | IV Rank: ~35th pctl (est)\nMA20: $371.86 | MA50: $360.79 | MA200: $307.94\nDist to 50-MA: +2.3% | Dist to 200-MA: +19.9%\n30d Low: $343.63 | 60d Low: $271.37\n\n[1] STRATEGY SELECTOR:\nRSI recovered to 40.3 from last week's 30.2 — no longer oversold.\nStock bounced off 50-MA and now trading slightly above it.\nIV has declined as stock stabilized (30.1% vs elevated levels last week).\nWeekly uptrend intact (weekly RSI 66.9).\nVERDICT: The ideal CSP window (last week's 🟢 4/4) has closed. Now marginal.\nBest fit: WAIT for another pullback, or sell CSP only if willing to accept reduced edge.\n\n[2] CSP ENTRY CONDITIONS (Jul 17, 32 DTE):\n□ IV Rank ≥40th: ❌ NO (~35th pctl — IV declined after bounce)\n□ Daily RSI ≤40: ❌ NO (40.3 — barely above threshold)\n□ Price near support: ✅ YES (2.3% above 50-MA $360.79)\n□ Premium ≥1%: ✅ YES ($350P ~$5.30 = 1.51%)\nEntry Signal: 🟡 MARGINAL (2/4)\n\nBest strikes IF proceeding:\n• $350P Jul17 — ~$5.30 bid (1.51%), basis ~$344.70\n• $345P Jul17 — ~$4.10 bid (1.19%), basis ~$340.90\n\n[3] CC ENTRY CONDITIONS (Jul 17, 32 DTE):\nEntry Signal: 🔴 SKIP (1/4) — RSI 40.3, mid-range. Don't cap recovery.\n\n[4] LEAPS: 🔴 1/6 NO SETUP — +19.9% above 200-MA, -8.7% pullback only.\n\n═══════════════════════════════════════\n📌 NVDA — $211.49\n═══════════════════════════════════════\n1W: +1.4% | 1M: -10.2% | From 52W High: -10.5%\nDaily RSI: 47.8 | Weekly RSI: 63.5\nHV30: 44.4% | ATM IV: 36.2% | IV Rank: ~28th pctl (est)\nMA20: $213.78 | MA50: $207.39 | MA200: $189.19\nDist to 50-MA: +2.0% | Dist to 200-MA: +11.8%\n30d Low: $194.51 | 60d Low: $164.08\n\n[1] STRATEGY SELECTOR:\nRSI 47.8 — dead neutral. IV notably LOW relative to realized vol (36% IV vs 44% HV).\nVERDICT: Wait. No edge selling premium when IV < realized vol.\n\n[2] CSP ENTRY CONDITIONS (Jul 17, 32 DTE):\n□ IV Rank ≥40th: ❌ NO (~28th, IV < HV)\n□ Daily RSI ≤40: ❌ NO (47.8 neutral)\n□ Price near support: ✅ YES (50-MA $207.39, $200 psychological)\n□ Premium ≥1%: ✅ YES ($200P $4.45 = 2.23%)\nEntry Signal: 🟡 MARGINAL (2/4)\n\nBest strikes IF proceeding:\n• $200P Jul17 — $4.45 bid (2.23%), basis $195.55. 101K OI.\n• $195P Jul17 — $3.05 bid (1.56%), basis $191.95\n\n[3] CC: 🔴 SKIP (1/4) — IV low, stock neutral, room to run.\n\n[4] LEAPS: 🟡 2/6 MONITORING\n✅ IV cheap (~28th) ✅ Liquid ($230C Jun'27 spread 0.9%, OI 6,337)\nWatch: NVDA $195 + RSI <35 → 🟢 ALERT\n\n═══════════════════════════════════════\n📌 TSLA — $409.67\n═══════════════════════════════════════\n1W: +0.2% | 1M: -7.6% | From 52W High: -17.9%\nDaily RSI: 42.0 | Weekly RSI: 53.6\nHV30: 47.4% | ATM IV: 46.0% | IV Rank: ~35th pctl (est)\nMA20: $415.12 | MA50: $399.28 | MA200: $415.99\nDist to 50-MA: +2.6% | Dist to 200-MA: -1.5% (BELOW!)\n30d Low: $380.15 | 60d Low: $337.24\n\n[1] STRATEGY SELECTOR:\nStock BELOW 200-MA. Trapped between 50-MA ($399) and 200-MA ($416).\n-17.9% pullback from high. LEAPS candidate developing.\n\n[2] CSP ENTRY CONDITIONS (Jul 17, 32 DTE):\n□ IV Rank ≥40th: ❌ NO (~35th)\n□ Daily RSI ≤40: ❌ NO (42.0, close)\n□ Price near support: ✅ YES (at 200-MA, above 50-MA)\n□ Premium ≥1%: ✅ YES ($370P $7.35 = 1.99%)\nEntry Signal: 🟡 MARGINAL (2/4)\n\n[3] CC: 🔴 SKIP (1/4) — Stock weak, below 200-MA. Don't sell calls into weakness.\n\n[4] LEAPS: 🟢 4/6 ALERT!\n❌ RSI 42 ✅ Weekly stabilizing ✅ AT 200-MA\n❌ IV ~35th ✅ Liquid ✅ Pullback -17.9%\n\n🟢 ENTRY PLAN: $450C Jun 17, 2027 (367 DTE)\n• Premium: ~$74-75 | Breakeven: $524.58 (+28%)\n• Max risk: $7,458/contract | Size: 2-3% portfolio\n• Exit: break <$350, weekly RSI <40, thesis change\n\n═══════════════════════════════════════\n📊 QUICK SUMMARY TABLE\n═══════════════════════════════════════\n\n| Ticker | CSP | CC | LEAPS | Best Action Today |\n|--------|-----|-----|-------|-------------------|\n| GOOG | 🟡 2/4 | 🔴 SKIP | 🔴 1/6 | WAIT |\n| NVDA | 🟡 2/4 | 🔴 SKIP | 🟡 2/6 | WAIT — watch $195 |\n| TSLA | 🟡 2/4 | 🔴 SKIP | 🟢 4/6! | LEAPS $450C Jun'27 |\n\nTOP PICK: TSLA LEAPS (persistent 🟢, at 200-MA, -17.9% pullback)\nKey change: GOOG & NVDA CSP downgraded 🟢→🟡 (bounced, IV contracted)."
+  },
+  {
     "date": "2026-06-09",
     "prices": [
       {
