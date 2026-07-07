@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-07-07",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "366.53"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "193.05"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "405.81"
+      }
+    ],
+    "summary": [
+      "GOOG CSP 🟡 2/4, CC 🟡 3/4, LEAPS 🔴 1/6. IV good but RSI mid-range, far from support",
+      "NVDA CSP 🟢 4/4 — FULL GREEN! RSI 29.8 oversold + at 200MA + IV 73rd. Best: $180P @$3.95 (2.19%)",
+      "TSLA CSP 🟡 3/4, CC 🔴 2/4, LEAPS 🟢 4/6 (IV 100th — don't buy). $370P if bullish"
+    ],
+    "body": "📊 DAILY OPTIONS ANALYSIS — 2026-07-07\nNot financial advice. Educational analysis only.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📈 GOOG — $366.53\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nRSI Daily: 49.7 | RSI Weekly: 66.8\n200-MA: $316.38 (+15.9%) | Pullback: 9.3%\nIV Rank: 77th pctl | 30d Vol: 33.6%\nSupport: $333.69 (30d), $313.50 (60d)\n\n1️⃣ STRATEGY SELECTOR\nIV: ✅ 77th pctl → Premium selling viable\nRSI: ⚠️ 49.7 mid-range → No directional signal\n➡️ Wait or cautious CC (weekly RSI extended)\n\n2️⃣ CASH-SECURED PUT — 🟡 MARGINAL (2/4)\n☑️ IV Rank 77th ≥ 40\n☐ RSI 49.7 > 40 (NOT oversold)\n☐ Price +15.9% above 200MA (NOT near support)\n☑️ $335P yield 1.45% ≥ 1.0%\n→ Missing: RSI mid-range, far from support\n→ If proceeding: $335P bid $4.85, OI 118. Cost basis $330.15\n\n3️⃣ COVERED CALL — 🟡 MARGINAL (3/4)\n☑️ IV 77th ≥ 40\n☐ RSI 49.7 < 60 (not overbought)\n☑️ Weekly RSI 66.8 ≥ 60\n☑️ $385C yield 2.47% ≥ 0.8%\n→ Missing: daily RSI not extended\n→ If proceeding: $385C bid $9.05, $380C bid $10.55\n\n4️⃣ LEAPS — 🔴 1/6 NO SETUP\nRSI(50/67), IV 77th, +16% from support, -9% pullback\nDo NOT buy LEAPS. IV high + no pullback.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📈 NVDA — $193.05 ⚡ SETUP TRIGGERED\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nRSI Daily: 29.8 🔥 | RSI Weekly: 56.8\n200-MA: $191.24 (+0.9%) | Pullback: 18.4%\nIV Rank: 73rd pctl | 30d Vol: 40.1%\nSupport: $189.80 (30d), $184.30 (60d), $191 (200MA)\n\n1️⃣ STRATEGY SELECTOR\nIV: ✅ 73rd pctl → Premium selling very viable\nRSI: ✅ 29.8 OVERSOLD → Selling puts INTO weakness ✓\nPosition: RIGHT at 200MA, -18% from highs\n➡️ 🟢 SELL CSPs NOW. Best setup in weeks.\n\n2️⃣ CASH-SECURED PUT — 🟢 GOOD SETUP (4/4) ★\n☑️ IV Rank 73rd ≥ 40\n☑️ RSI 29.8 ≤ 40 (OVERSOLD ✓)\n☑️ Price +0.9% from 200MA (AT support ✓)\n☑️ $180P yield 2.19% ≥ 1.0%\n\n★ FULL STRIKE ANALYSIS:\n• $180P (Aug 7) — bid $3.95, yield 2.19%, OI 10,605\n  Cost basis: $176.05 (8% below 200MA, below 60d low)\n• $175P (Aug 7) — bid $2.80, yield 1.60%, OI 1,981\n  Cost basis: $172.20\n• $170P (Aug 7) — bid $1.96, yield 1.15%, OI 1,106\n  Cost basis: $168.04\n\nBest pick: $180P @ $3.95 — sweet spot yield + safety\nOwn 100 shares at $176? AI leader at 200MA? YES.\n\n3️⃣ COVERED CALL — 🔴 SKIP (2/4)\nRSI 29.8 = OVERSOLD. Don't cap recovery bounce.\nWait for RSI > 60.\n\n4️⃣ LEAPS — 🟢 5/6 ALERT (IV caveat)\n☑️ RSI 29.8 ≤ 35 | ☑️ Weekly stabilizing\n☑️ +0.9% from 200MA | ☐ IV 73rd (too high!)\n☑️ Liquid (OI 2,967) | ☑️ Pullback 18.4%\n→ Price setup excellent BUT IV elevated.\n→ MONITOR. Buy if IV drops below 50th pctl.\n→ Target: $210C (Sep 2027) @ ~$33.40\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📈 TSLA — $405.81\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\nRSI Daily: 48.5 | RSI Weekly: 58.3\n200-MA: $418.50 (-3.0%) | Pullback: 18.6%\nIV Rank: 100th pctl 🔥 | 30d Vol: 58.0%\nSupport: $368.60 (30d), $342.74 (60d)\n\n1️⃣ STRATEGY SELECTOR\nIV: ✅ 100th pctl → Maximum premium environment\nRSI: ⚠️ 48.5 neutral → No directional edge\n➡️ CSP if bullish (insane premium). Don't buy options.\n\n2️⃣ CASH-SECURED PUT — 🟡 MARGINAL (3/4)\n☑️ IV Rank 100th ≥ 40 (MAXIMUM)\n☐ RSI 48.5 > 40 (NOT oversold)\n☑️ Price -3.0% below 200MA (at support)\n☑️ $370P yield 2.18% ≥ 1.0%\n→ Missing: RSI not oversold, could still drop\n→ Strikes:\n  $370P bid $8.05, yield 2.18%, OI 565. Cost basis $361.95\n  $365P bid $6.95, yield 1.90%, OI 365. Cost basis $358.05\n  $360P bid $5.85, yield 1.63%, OI 545. Cost basis $354.15\n\n3️⃣ COVERED CALL — 🔴 SKIP (2/4)\nRSI 48.5, not extended. Below 200MA recovering.\nDon't cap upside during potential bounce.\n\n4️⃣ LEAPS — 🟢 4/6 (IV = 100th! DON'T BUY)\n☑️ Weekly stabilizing | ☑️ At 200MA support\n☑️ Liquid (spread 1.2%) | ☑️ Pullback 18.6%\n☐ RSI 48.5 > 35 | ☐ IV 100th (WORST for buying!)\n→ DO NOT BUY. $450C costs $82.65 (20% of price!).\n→ Wait for IV < 30th pctl.\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📋 QUICK SUMMARY TABLE\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n| Ticker | CSP | CC | LEAPS | Best Action |\n|--------|-----|-----|-------|-------------|\n| GOOG $367 | 🟡 2/4 | 🟡 3/4 | 🔴 1/6 | Wait |\n| NVDA $193 | 🟢 4/4 | 🔴 2/4 | 🟢 5/6* | ★ $180P @$3.95 |\n| TSLA $406 | 🟡 3/4 | 🔴 2/4 | 🟢 4/6* | $370P if bullish |\n\n*LEAPS green on price setup but IV too high to buy\n\n★ #1 PICK: NVDA $180P (Aug 7) @ $3.95\n→ First full 🟢 CSP this cycle (RSI dropped 42→30!)\n→ At 200MA + oversold + IV 73rd + 2.19% yield\n→ OI 10,605 = massive liquidity\n→ Cost basis $176 if assigned\n\nKey vs Yesterday:\n• NVDA RSI 42→29.8 (triggered 🟢 CSP!)\n• GOOG +$7 (moved away from setup)\n• TSLA -$6 (still at 200MA, IV max)\n\n⏰ 2026-07-07 | Expiry: Aug 7 (31 DTE)\n⚠️ Not financial advice.\n"
+  },
+  {
     "date": "2026-07-06",
     "prices": [
       {
