@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-07-29",
+    "prices": [
+      {
+        "ticker": "GOOG",
+        "price": "333.00"
+      },
+      {
+        "ticker": "NVDA",
+        "price": "192.38"
+      },
+      {
+        "ticker": "TSLA",
+        "price": "302.98"
+      }
+    ],
+    "summary": [
+      "GOOG CSP 🟢 4/4 GOOD. IV 97% + RSI 38.6 + near 200MA. $315 strike Aug28 @ $4.80 (1.52%/mo).",
+      "NVDA CSP 🟡 3/4 MARGINAL. Sharp -7.8% week, at 200MA. RSI 41.9 barely misses. Wait 1 day then $175.",
+      "TSLA CSP 🟢 4/4 GOOD ⚠️ HIGH RISK. RSI 9.4 extreme + IV 92% + near 52w low. $270 half-size.",
+      "LEAPS: GOOG 🟡 3/6 + NVDA 🟡 3/6 + TSLA 🟢 4/6 (all IV too high to buy).",
+      "CC: ALL 🔴 SKIP — stocks oversold/declining, don't cap recovery.",
+      "TOP PICK: GOOG CSP $315 cleanest. TSLA $270 for premium hunters (half position)."
+    ],
+    "body": "📊 DAILY OPTIONS ANALYSIS — 2026-07-29\n==================================================\n\n==================================================\n🔷 GOOG — $333.00\n==================================================\n\n📈 Technicals: RSI(D) 38.6 | RSI(W) 47.8 | IV Rank ~97% | HV 39.8%\n200-MA: $324.15 (+2.7%) | Pullback from 52w high: -17.6%\n5-day: $318.34 → $333.00 (bouncing from $314.89 low)\n\n━━━ PROMPT 1: STRATEGY SELECTOR ━━━\n• IV Environment: EXTREMELY ELEVATED (97th percentile) — premium-selling paradise\n• Conviction: HIGH (recovering from post-earnings dip, near 200-MA support)\n• Best Strategy: SELL CASH-SECURED PUTS — IV maxed out + price near support = ideal\n• Secondary: Wait for IV contraction before considering LEAPS\n• Do NOT buy LEAPS now — IV too expensive, overpaying for premium\n\n━━━ PROMPT 2: CSP STRIKE FINDER ━━━\nEntry Condition Check:\n☑️ IV Rank ≥ 40%: YES (97%) ✓\n☑️ Daily RSI ≤ 40: YES (38.6) ✓\n☑️ Price near support: YES (2.7% above 200-MA at $324) ✓\n☑️ Premium ≥ 1.0%/30 DTE: YES ($4.80/$315 = 1.52% @ 29 DTE) ✓\n\nScore: 4/4 🟢 GOOD SETUP\n\nStrike Analysis:\n• $315 strike (29 DTE, Aug 28): Bid $4.80 | OI 303 | ~5.4% OTM\n  - Effective cost basis if assigned: $310.20\n  - Premium yield: 1.52%/month\n• $310 strike: Bid $3.65 | OI 626 | ~6.9% OTM\n  - Effective cost basis: $306.35\n  - Premium yield: 1.18%/month\n• RECOMMENDATION: $310-315 strikes are sweet spot.\n\n━━━ PROMPT 3: COVERED CALL TIMING ━━━\nScore: 2/4 🟡 MARGINAL — RSI too low (38.6). SKIP selling calls — stock recovering.\n\n━━━ PROMPT 4: LEAPS ENTRY MONITOR ━━━\nGOOG $333.00 | Score: 3/6 🟡 MONITORING\nMissing: IV far too high (97th pctile). Must wait for IV crush.\n\n==================================================\n🔷 NVDA — $192.38\n==================================================\n\n📈 Technicals: RSI(D) 41.9 | RSI(W) 43.8 | IV Rank ~58% | HV 37.6%\n200-MA: $192.82 (-0.2%) | Pullback from 52w high: -18.6%\n5-day: $208.76 → $192.38 (sharp -7.8% selloff this week!)\n\n━━━ PROMPT 1: STRATEGY SELECTOR ━━━\n• IV Environment: ELEVATED (58th percentile) — decent for selling premium\n• Best Strategy: SELL CASH-SECURED PUTS — testing 200-MA support with elevated IV\n\n━━━ PROMPT 2: CSP STRIKE FINDER ━━━\nEntry Condition Check:\n☑️ IV Rank ≥ 40%: YES (58%) ✓\n☐ Daily RSI ≤ 40: NO (41.9 — close) ✗\n☑️ Price near support: YES (at 200-MA $192.82) ✓\n☑️ Premium ≥ 1.0%/30 DTE: YES ($3.80/$175 = 2.17%) ✓\n\nScore: 3/4 🟡 MARGINAL\n\nStrike Analysis (Aug 28 expiry, 29 DTE):\n• $175: Bid $3.80 | yield 2.17%/mo — conservative\n• $180: Bid $5.20 | yield 2.89%/mo — balanced\n• $185: Bid $6.75 | yield 3.63%/mo — aggressive\n• RECOMMENDATION: Wait 1 more red day for RSI < 40 confirmation. Then $175.\n\n━━━ PROMPT 3: COVERED CALL TIMING ━━━\nScore: 2/4 🔴 SKIP. Stock in selloff, don't cap bounce recovery.\n\n━━━ PROMPT 4: LEAPS ENTRY MONITOR ━━━\nNVDA $192.38 | Score: 3/6 🟡 MONITORING\nMissing: IV elevated (58%), weekly RSI still falling. Wait for stabilization.\n\n==================================================\n🔷 TSLA — $302.98\n==================================================\n\n📈 Technicals: RSI(D) 9.4 ⚠️ EXTREME | RSI(W) 37.4 | IV Rank ~92% | HV 66.8%\n200-MA: $412.77 (-26.6%!) | Pullback from 52w high: -39.3%\n5-day: $319.69 → $302.98 (relentless selling, near 52w low $297.82!)\n\n━━━ PROMPT 1: STRATEGY SELECTOR ━━━\n• IV Environment: EXTREMELY ELEVATED (92nd percentile) — premium bonanza\n• Conviction: MODERATE (massive selloff, brand risk)\n• Best Strategy: SELL CASH-SECURED PUTS — but only at strikes you'd want to own\n\n━━━ PROMPT 2: CSP STRIKE FINDER ━━━\nEntry Condition Check:\n☑️ IV Rank ≥ 40%: YES (92%) ✓\n☑️ Daily RSI ≤ 40: YES (9.4 — EXTREME) ✓\n☑️ Price near support: YES (2% from 52w low) ✓\n☑️ Premium ≥ 1.0%/30 DTE: YES ($5.70/$275 = 2.07%) ✓\n\nScore: 4/4 🟢 GOOD SETUP (HIGH RISK — structural downtrend)\n\nStrike Analysis (Aug 28 expiry, 29 DTE):\n• $270: Bid $4.65 | yield 1.72%/mo — below 52w low\n• $275: Bid $5.70 | yield 2.07%/mo\n• $280: Bid $7.05 | yield 2.52%/mo\n• RECOMMENDATION: $270-275 half-size position. RSI 9.4 = bounce likely but trend is brutal.\n\n━━━ PROMPT 3: COVERED CALL TIMING ━━━\nScore: 2/4 🔴 ABSOLUTE SKIP. RSI 9.4 = don't cap recovery.\n\n━━━ PROMPT 4: LEAPS ENTRY MONITOR ━━━\nTSLA $302.98 | Score: 4/6 🟢 ALERT (but IV BLOCKS at 92%)\nConditions aligned but IV too high. DO NOT buy LEAPS until IV < 40%.\nSet alert: If TSLA holds $295-300 AND IV drops to < 40%, target $330 strike Sep 2027.\n\n==================================================\n📋 QUICK SUMMARY TABLE\n\n| Ticker | CSP | CC | LEAPS | Best Action Today |\n|--------|-----|-----|-------|-------------------|\n| GOOG | 🟢 4/4 GOOD $310-315 | 🟡 SKIP | 🟡 3/6 | CSP $315 @ $4.80 (1.52%/mo) |\n| NVDA | 🟡 3/4 MARGINAL $175 | 🔴 SKIP | 🟡 3/6 | Wait 1 day then CSP $175 |\n| TSLA | 🟢 4/4 GOOD ⚠️ $270-275 | 🔴 SKIP | 🟢 4/6 IV blocks | CSP $270 half-size |\n\n🏆 TOP PICKS:\n1. GOOG CSP $315 Aug28 — cleanest setup (all 4 ✓)\n2. TSLA CSP $270 Aug28 — fat premium, half position\n3. NVDA — one more down day, then $175 CSP\n\n⚠️ NOT FINANCIAL ADVICE"
+  },
+  {
     "date": "2026-07-28",
     "prices": [
       {
