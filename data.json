@@ -1,44 +1,24 @@
 {
-  "GOOG": {
-    "date": "2026-08-18",
-    "prices": [
-      340.69
-    ],
-    "summary": [
-      "IV rank low (27%), RSI daily 54.5 neutral, weekly 36.1 oversold",
-      "CSP: \ud83d\udfe1 MARGINAL (2/4) \u2014 IV too low, RSI not oversold; $320 put 1.03% yield barely clears",
-      "CC: \ud83d\udd34 SKIP (1/4) \u2014 weekly oversold, don't cap a recovery rally",
-      "LEAPS: \ud83d\udfe1 MONITORING (4/6) \u2014 close to alert; cheap IV, near 200-MA, 14.6% pullback",
-      "Best action: WAIT \u2014 monitor for LEAPS entry at $325-330 if daily RSI drops below 35"
-    ],
-    "body": "## GOOG $340.69 \u2014 2026-08-18\n\n### Strategy Selector\nIV Rank ~27 (low). Weekly RSI 36.1 oversold, daily RSI 54.5 neutral. Price 3.1% above 200-day MA ($330.59). Low IV favors buying premium (LEAPS) over selling. WAIT on CSP/CC. Monitor for LEAPS.\n\n### CSP Entry Conditions: \ud83d\udfe1 MARGINAL (2/4)\n- IV Rank \u2265 40: \u274c (27)\n- Daily RSI \u2264 40: \u274c (54.5)\n- Price near support: \u2705 (3.1% above 200-MA)\n- Premium \u2265 1.0%: \u2705 ($320 put @ $3.31 = 1.03%)\nMissing IV and RSI. Premium barely clears threshold. Skip for now.\n\n### CC Entry Conditions: \ud83d\udd34 SKIP (1/4)\n- IV Rank \u2265 40: \u274c (27)\n- Daily RSI \u2265 60: \u274c (54.5)\n- Weekly overbought: \u274c (36.1 \u2014 oversold!)\n- Premium \u2265 0.8%: \u2705 ($360 call @ $4.55 = 1.34%)\nStock coming off pullback on weekly. Don't cap recovery.\n\n### LEAPS Monitor: \ud83d\udfe1 4/6 (Borderline Alert)\n- Daily RSI \u2264 35: \u274c (54.5)\n- Weekly stabilizing: \u2705 (36.1, near oversold)\n- Price near support: \u2705 (3.1% above 200-MA)\n- IV Rank < 30: \u2705 (27)\n- Liquid 360+ DTE: \u2705 (Sep 2027, OI decent)\n- Pullback \u2265 15%: \u274c (14.6% \u2014 barely short)\nClose to alert. Need daily RSI drop to <35 and one more leg down. If GOOG hits $325-330, trigger LEAPS: $305 strike Sep 2027 (~$76), breakeven ~$381."
-  },
-  "NVDA": {
-    "date": "2026-08-18",
-    "prices": [
-      219.86
-    ],
-    "summary": [
-      "IV rank elevated (58%), RSI daily 68.7 overbought, weekly 47.6 neutral",
-      "CSP: \ud83d\udfe1 MARGINAL (2/4) \u2014 great IV/premium but RSI overbought, far from support",
-      "CC: \ud83d\udfe1 STRONG (3/4) \u2014 best setup today; IV high, RSI overbought, 1.96% premium",
-      "LEAPS: \ud83d\udd34 NO SETUP (1/6) \u2014 overbought, near highs, IV expensive",
-      "Best action: SELL CC $235 strike Sep 18 if you own shares (~$4.30, 1.96% in 30d)"
-    ],
-    "body": "## NVDA $219.86 \u2014 2026-08-18\n\n### Strategy Selector\nIV Rank ~58 (elevated). Daily RSI 68.7 overbought. Price 12.8% above 200-day MA. Strong rally from $190 low. Ideal environment for selling premium, specifically covered calls.\n\n### CSP Entry Conditions: \ud83d\udfe1 MARGINAL (2/4)\n- IV Rank \u2265 40: \u2705 (58)\n- Daily RSI \u2264 40: \u274c (68.7 \u2014 overbought!)\n- Price near support: \u274c (12.8% above 200-MA)\n- Premium \u2265 1.0%: \u2705 ($205 put @ $4.35 = 2.12%)\nIV and premium excellent, but timing wrong. Stock overbought and far from support. Wait for pullback to $200-205.\n\n### CC Entry Conditions: \ud83d\udfe1 STRONG (3/4)\n- IV Rank \u2265 40: \u2705 (58)\n- Daily RSI \u2265 60: \u2705 (68.7)\n- Weekly overbought: \u274c (47.6 neutral)\n- Premium \u2265 0.8%: \u2705 ($235 call @ $4.30 = 1.96%)\nBest setup today. IV elevated, stock overbought on daily, premium nearly 2%. Only missing weekly confirmation (neutral, not overbought \u2014 rally may have more room on weekly timeframe). Recommended: $235-240 strike, Sep 18 expiry.\n\n### LEAPS Monitor: \ud83d\udd34 1/6 (No Setup)\n- Daily RSI \u2264 35: \u274c (68.7)\n- Weekly stabilizing: \u274c (no decline)\n- Price near support: \u274c (12.8% above)\n- IV Rank < 30: \u274c (58)\n- Liquid 360+ DTE: \u2705 (OI 2891)\n- Pullback \u2265 15%: \u274c (6.6%)\nCompletely wrong environment for LEAPS. Premium expensive, stock near highs."
-  },
-  "TSLA": {
-    "date": "2026-08-18",
-    "prices": [
-      337.53
-    ],
-    "summary": [
-      "IV rank low (23%), RSI daily 67.9 overbought, weekly 33.8 oversold \u2014 conflicting",
-      "CSP: \ud83d\udd34 SKIP (1/4) \u2014 IV low, overbought short-term, below 200-MA downtrend",
-      "CC: \ud83d\udfe1 MARGINAL (2/4) \u2014 overbought + good premium, but IV low and weekly oversold",
-      "LEAPS: \ud83d\udfe1 MONITORING (4/6) \u2014 31% pullback + low IV developing; wait for RSI cooloff",
-      "Best action: WAIT \u2014 LEAPS setup developing, enter at $310-320 when daily RSI cools"
-    ],
-    "body": "## TSLA $337.53 \u2014 2026-08-18\n\n### Strategy Selector\nIV Rank ~23 (low). Divergence: daily RSI 67.9 overbought (bounce) vs weekly RSI 33.8 oversold (longer-term weakness). Price 16.8% BELOW 200-day MA ($405.46). 31.1% off 52-week high. Looks like a bear market rally. Low IV favors buying. Wait for daily to cool before LEAPS entry.\n\n### CSP Entry Conditions: \ud83d\udd34 SKIP (1/4)\n- IV Rank \u2265 40: \u274c (23)\n- Daily RSI \u2264 40: \u274c (67.9 \u2014 overbought)\n- Price near support: \u274c (16.8% below 200-MA, in downtrend)\n- Premium \u2265 1.0%: \u2705 ($320 put @ $7.80 = 2.44%)\nPremium looks good but that's base TSLA volatility, not elevated IV. Selling cheap insurance in a downtrend bounce. Skip.\n\n### CC Entry Conditions: \ud83d\udfe1 MARGINAL (2/4)\n- IV Rank \u2265 40: \u274c (23)\n- Daily RSI \u2265 60: \u2705 (67.9)\n- Weekly overbought: \u274c (33.8 \u2014 oversold!)\n- Premium \u2265 0.8%: \u2705 ($355 call @ $8.65 = 2.56%)\nConflicting signals. Daily overbought but weekly oversold suggests potential larger recovery. Risk capping a snapback rally from 31% drawdown. Marginal at best.\n\n### LEAPS Monitor: \ud83d\udfe1 4/6 (Monitoring \u2014 Developing)\n- Daily RSI \u2264 35: \u274c (67.9 \u2014 overbought from bounce)\n- Weekly stabilizing: \u2705 (33.8, bouncing from oversold)\n- Price near support: \u274c (but near $298 recent low)\n- IV Rank < 30: \u2705 (23)\n- Liquid 360+ DTE: \u2705 (Sep 2027 available)\n- Pullback \u2265 15%: \u2705 (31.1% \u2014 massive discount)\nBuilding toward LEAPS alert. Need daily RSI to cool (40-45 range). If TSLA dips to $310-320 with IV staying low: $300 strike Sep 2027 (~$90), breakeven ~$390."
-  }
+  "date": "2026-08-19",
+  "prices": [
+    {
+      "ticker": "GOOG",
+      "price": 342.22
+    },
+    {
+      "ticker": "NVDA",
+      "price": 219.21
+    },
+    {
+      "ticker": "TSLA",
+      "price": 347.93
+    }
+  ],
+  "summary": [
+    "GOOG $342: IV elevated (88th pctl), near 200-MA support. CSP marginal (3/4) - wait for RSI pullback. CC skip - still recovering.",
+    "NVDA $219: Overbought (RSI 74). Skip CSPs. Sell CC at $235 strike (52-week high resistance) for 1.90% yield.",
+    "TSLA $348: Overbought bounce in downtrend (RSI 75.7). Skip CSPs. BEST TRADE: Sell CC $370 for 2.41% yield - exceptional premium.",
+    "TOP PICK: TSLA CC $370 Sep 18 - 2.41% monthly yield with 200-MA ceiling as backstop."
+  ],
+  "body": "=== FULL OPTIONS ANALYSIS - 2026-08-19 ===\n\n================================================================\n                        GOOG ($342.22)\n================================================================\n\n--- PROMPT 1: STRATEGY SELECTOR ---\nCurrent conditions: $342.22, IV Rank 88th pctl (ELEVATED), RSI 55.0\nRECOMMENDATION: Sell a Cash-Secured Put. IV elevated, stock near 200 MA support ($331). Premium-selling environment.\n\n--- PROMPT 2: CASH-SECURED PUT (Entry Conditions) ---\n\u2705 IV Rank 88th | \u274c RSI 55 (not oversold) | \u2705 Near support (3.3% above 200-MA) | \u2705 Premium 1.75%\nEntry Signal: 3/4 \u2192 \ud83d\udfe1 MARGINAL (missing: RSI not in pullback territory)\nBest strike: $330 at 200 MA support, $5.78 premium (1.75% yield), cost basis $324.22 if assigned.\nConsider waiting for dip or use $325 conservatively.\n\n--- PROMPT 3: COVERED CALL (Entry Conditions) ---\n\u2705 IV Rank 88th | \u274c RSI 55 (not extended) | \u274c Weekly RSI 36.4 (weak) | \u2705 Premium 1.05%\nEntry Signal: 2/4 \u2192 \ud83d\udfe1 MARGINAL\nSKIP: Stock still recovering. Don't cap upside during recovery.\n\n--- PROMPT 4: LEAPS ENTRY MONITOR ---\nScore: 3/6 \ud83d\udfe1 MONITORING | RSI(55/36.4), IV Rank 88, Support 3.3%, Pullback -14.2%\nIV too high for LEAPS. Wait for IV compression + further pullback.\n\n================================================================\n                        NVDA ($219.21)\n================================================================\n\n--- PROMPT 1: STRATEGY SELECTOR ---\nCurrent conditions: $219.21, IV Rank 59th pctl, RSI 74.3 (overbought)\nRECOMMENDATION: Sell Covered Calls into overbought strength. Don't sell CSPs when extended.\n\n--- PROMPT 2: CASH-SECURED PUT (Entry Conditions) ---\n\u2705 IV Rank 59th | \u274c RSI 74.3 (overbought!) | \u274c 12.4% above 200-MA | \u2705 Premium 1.47%\nEntry Signal: 2/4 \u2192 \ud83d\udd34 SKIP. Stock overbought and far from support.\n\n--- PROMPT 3: COVERED CALL (Entry Conditions) ---\n\u2705 IV Rank 59th | \u2705 RSI 74.3 (overbought!) | \u274c Weekly RSI 47.4 (neutral) | \u2705 Premium 1.90%\nEntry Signal: 3/4 \u2192 \ud83d\udfe1 MARGINAL (leaning GOOD)\nBest strike: $235 (52-week high resistance), $4.18 premium (1.90% yield/30d).\nSELL $235 call Sep 18. Stock at resistance, excellent premium.\n\n--- PROMPT 4: LEAPS ENTRY MONITOR ---\nScore: 1/6 \ud83d\udd34 NO SETUP | RSI(74.3/47.4), IV Rank 59, Support 12.4% away, Pullback -6.9%\nNowhere close. Wait for meaningful pullback.\n\n================================================================\n                        TSLA ($347.93)\n================================================================\n\n--- PROMPT 1: STRATEGY SELECTOR ---\nCurrent conditions: $347.93, IV Rank 63rd pctl, RSI 75.7 (overbought)\nRECOMMENDATION: Sell Covered Calls. Daily RSI 75.7 + elevated IV = rich premium on a bounce in downtrend.\n\n--- PROMPT 2: CASH-SECURED PUT (Entry Conditions) ---\n\u2705 IV Rank 63rd | \u274c RSI 75.7 (overbought!) | \u274c 14% below 200-MA | \u2705 Premium 1.73%\nEntry Signal: 2/4 \u2192 \ud83d\udd34 SKIP. Bounce in downtrend, wrong time for puts.\n\n--- PROMPT 3: COVERED CALL (Entry Conditions) ---\n\u2705 IV Rank 63rd | \u2705 RSI 75.7 (strongly overbought) | \u274c Weekly RSI 35.8 (weak) | \u2705 Premium 2.41%(!!)\nEntry Signal: 3/4 \u2192 \ud83d\udfe1 MARGINAL (leaning GOOD) \u2014 EXCEPTIONAL premium\n\ud83d\udfe2 BEST TRADE TODAY: Sell $370 call Sep 18. Premium $8.38 (2.41% yield/30d).\n200 MA ceiling at $404. Bounce likely to fade. If called at $370, good exit.\n\n--- PROMPT 4: LEAPS ENTRY MONITOR ---\nScore: 3/6 \ud83d\udfe1 MONITORING | RSI(75.7/35.8), IV Rank 63, Below 200-MA 14%, Pullback -29%\nBig pullback from highs but IV expensive and stock just bounced. Wait for fade + IV compression.\n\n================================================================\n                    QUICK SUMMARY TABLE\n================================================================\n\n| Ticker | CSP | CC | LEAPS | Best Action Today |\n|--------|-----|-----|-------|-------------------|\n| GOOG   | \ud83d\udfe1 MARGINAL (3/4) | \ud83d\udfe1 SKIP (2/4) | \ud83d\udfe1 3/6 | CSP $330 if dips to support |\n| NVDA   | \ud83d\udd34 SKIP (2/4) | \ud83d\udfe1\u2192\ud83d\udfe2 (3/4) | \ud83d\udd34 1/6 | CC $235 Sep 18 (1.90%) |\n| TSLA   | \ud83d\udd34 SKIP (2/4) | \ud83d\udfe2 BEST (3/4) | \ud83d\udfe1 3/6 | CC $370 Sep 18 (2.41%) \u2b50 |\n\nTOP PICK: TSLA covered call $370 Sep 18 \u2014 2.41% yield on overbought bounce in downtrend.\n\nNot financial advice."
 }
