@@ -1,117 +1,125 @@
 [
   {
-    "date": "2026-10-30",
+    "date": "2026-11-02",
     "ticker": "GOOG",
     "prices": [
       {
         "label": "Current",
-        "value": 281.29
+        "value": 281.58
       },
       {
         "label": "Prev Close",
-        "value": 282.32
+        "value": 278.22
       },
       {
         "label": "52W High",
-        "value": 398.54
+        "value": 404.47
       },
       {
         "label": "52W Low",
-        "value": 272.8
+        "value": 271.41
       },
       {
         "label": "50-day MA",
-        "value": 335.75
+        "value": 335.73
       },
       {
         "label": "200-day MA",
-        "value": 338.4
+        "value": 338.7
       },
       {
         "label": "RSI (14)",
-        "value": 13.7
+        "value": 15.7
+      },
+      {
+        "label": "Weekly RSI",
+        "value": 18.0
       },
       {
         "label": "IV Rank",
-        "value": 84.7
+        "value": 94.8
       }
     ],
     "summary": [
-      "CSP: 🟢 GOOD SETUP (4/4) — Sell $265P Nov-27 for $3.20, eff. basis $261.80",
-      "CC: 🔴 SKIP (1/4) — RSI 13.7, extreme oversold, don't cap recovery",
-      "LEAPS: 🟢 ALERT (5/6) — 25% pullback + RSI 13.7, but IV 85% = expensive premium",
-      "Best action: SELL CSP $265P or $270P — fat premium into panic, near 52W low support"
+      "CSP: \ud83d\udfe2 GOOD SETUP (4/4) \u2014 Sell $265P Nov-20 for $2.24, eff. basis $262.76; or $270P for $3.35, eff. basis $266.65",
+      "CC: \ud83d\udd34 SKIP (1/4) \u2014 RSI 15.7 extreme oversold, don't cap recovery upside",
+      "LEAPS: \ud83d\udfe1 MONITORING (4/6) \u2014 30% pullback + RSI 15.7, but IV Rank 95% = very expensive premium",
+      "Best action: SELL CSP at $265-$270 \u2014 fat premium into panic, near 52W low support at $271"
     ],
-    "body": "# GOOG Options Analysis — 2026-10-30\n**Price: $281.29** | Daily RSI: 13.7 | Weekly RSI: 37.3 | IV Rank: ~85% | Pullback: -25.0%\n200-day MA: $338.40 | 50-day MA: $335.75 | 52W High: $398.54 | 52W Low: $272.80\n\n---\n\n## 1) Strategy Selector\n\nGOOG continues its deep slide — RSI 13.7 is extreme oversold territory (down from yesterday's already-panic 15.3). The stock is now 16.9% below the 200-day MA and 25% below the 3-month high. IV rank sits at ~85th percentile — premium is fat.\n\n**Decision flowchart:**\n- **IV environment:** VERY HIGH (85th percentile) — peak premium-selling conditions.\n- **Conviction:** High — Alphabet's fundamentals (cloud, AI, search moat) support long-term ownership.\n- **Capital:** ~$26.5K for CSP at $265; ~$27K at $270.\n\n**Recommendation:** SELL A CASH-SECURED PUT. IV at 85%, RSI at 13.7, 25% pullback into support — this is a textbook CSP setup. LEAPS conditions are also strong (5/6), but IV is too elevated to be buying long premium. Sell premium now; consider LEAPS after IV normalizes below 40%.\n\n---\n\n## 2) Cash-Secured Put — Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank ≥ 40% | ✅ PASS | ~85th percentile — premium near 52W highs |\n| Daily RSI ≤ 40 | ✅ PASS | RSI 13.7 — extreme oversold, panic selling |\n| Near support | ✅ PASS | $277.62 recent low, $272.80 52W low — price within 3% of both |\n| Premium ≥ 1.0%/30 DTE | ✅ PASS | $265P: $3.20 = 1.2%; $270P: $4.50 = 1.7% |\n\n**Score: 4/4 — 🟢 GOOD SETUP**\n\n**Strike analysis (Nov 27, 28 DTE):**\n- **$280 strike** (0.5% OTM): $8.43 mid = 3.0% yield. Aggressive — nearly ATM. Eff. basis $271.57.\n- **$275 strike** (2.2% OTM): $6.20 mid = 2.3% yield. Eff. basis $268.80. Near 52W low.\n- **$270 strike** (4.0% OTM): $4.50 mid = 1.7% yield. Eff. basis $265.50. Below 52W low.\n- **$265 strike** (5.8% OTM): $3.20 mid = 1.2% yield. Eff. basis $261.80. Well below 52W low.\n- **$260 strike** (7.6% OTM): $2.24 mid = 0.9% yield. Below threshold but very safe.\n\n**Recommended: $265-$270 range.** The $265P gives a cost basis of $261.80 — that's 4% below the 52W low. The $270P ($4.50, 1.7% yield) is the sweet spot for higher premium with a $265.50 effective basis still below the 52W low. Would I own GOOG at $265? Absolutely — 34% discount from 52W highs on a blue-chip.\n\n⚠️ Confirm no fundamental catalyst (antitrust, earnings miss) before committing $26-27K capital.\n\n---\n\n## 3) Covered Call — Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank ≥ 40% | ✅ PASS | ~85th percentile |\n| Daily RSI ≥ 60 | ❌ FAIL | RSI 13.7 — extreme oversold |\n| Weekly RSI overbought | ❌ FAIL | Weekly RSI 37.3 — weak |\n| Premium ≥ 0.8% at ~0.20δ | ❌ FAIL | At 0.20δ strikes near $310-315, premium decent but selling at a loss |\n\n**Score: 1/4 — 🔴 SKIP**\n\nDo NOT sell calls. GOOG is in freefall with RSI 13.7. Selling calls caps recovery upside at the worst possible moment. Wait for RSI 60+ and price stabilization.\n\n---\n\n## 4) LEAPS Entry Monitor\n\n| Condition | Score | Detail |\n|-----------|-------|--------|\n| Daily RSI ≤ 35 | ✅ 1 | RSI 13.7 — extreme oversold |\n| Weekly RSI stabilizing | ✅ 1 | 37.3, approaching oversold — nearing inflection |\n| Price within 5% support | ✅ 1 | 3.1% above 52W low $272.80 |\n| IV Rank < 30% | ❌ 0 | ~85% — LEAPS premium very expensive |\n| Options chain liquid | ✅ 1 | Jan-2028 $310C: $37.90 mid, OI 1329, 2.6% spread |\n| Pullback ≥ 15% | ✅ 1 | 25.0% from 3mo high, 29.4% from 52W high |\n\n**GOOG $281.29 | Score: 5/6 🟢 | RSI(13.7/37.3), IV Rank ~85%, -16.9% from 200MA, -25.0% pullback**\n\n🟢 LEAPS ALERT — Near-perfect stock-level conditions: RSI in panic territory, massive pullback, at support. The problem is IV rank at 85% — you'd overpay for long premium. Classic dilemma: best entries = most expensive options.\n\n**If entering despite elevated IV:**\n- Strike: $310 (~10.2% OTM), Jan 21, 2028 (448 DTE)\n- Premium: ~$37.90 mid ($3,790/contract)\n- Breakeven: $347.90\n- Max risk: $3,790/contract\n- Position sizing: 1-2 contracts max\n- Thesis breakers: Regulatory breakup, sustained search disruption, multiple quarters of revenue decline\n\n**Better play:** SELL the CSP now to harvest fat IV premium. If GOOG stabilizes and IV drops below 40%, THEN buy LEAPS. You get paid to wait."
+    "body": "# GOOG Options Analysis \u2014 2026-11-02\n**Price: $281.58** | Daily RSI: 15.7 | Weekly RSI: 18.0 | IV Rank: ~95% (HV-based) | ATM IV: 29.4%\n200-day MA: $338.70 | 50-day MA: $335.73 | 52W High: $404.47 | 52W Low: $271.41\nPullback from 52W high: -30.4% | Pullback from 3mo high: -26.2% | Distance from 200MA: -16.9%\n\n---\n\n## 1) Strategy Selector\n\nGOOG remains in deep sell-off territory \u2014 RSI 15.7 on daily, 18.0 on weekly. Both timeframes are at extreme oversold levels. The stock is 16.9% below its 200-day MA and 30% off its 52-week high. IV Rank is elevated at ~95th percentile (HV-based), meaning realized volatility is near its 52-week high \u2014 premium is fat.\n\n**Decision flowchart:**\n- **IV environment:** VERY HIGH (~95th percentile HV rank) \u2014 peak premium-selling conditions. ATM IV at 29.4% for 18 DTE.\n- **Conviction:** High \u2014 Alphabet's fundamentals (cloud, AI, search moat) remain intact despite the sell-off.\n- **Capital:** ~$26.5K-$27K for CSP at $265-$270 strikes.\n\n**Recommendation:** SELL A CASH-SECURED PUT. IV elevated, RSI at extreme oversold, 30% pullback into 52W low support \u2014 textbook CSP setup. LEAPS conditions are developing (4/6) but IV is too expensive to buy long premium. Sell premium now; revisit LEAPS when IV normalizes.\n\n---\n\n## 2) Cash-Secured Put \u2014 Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank >= 40% | PASS | ~95th percentile (HV rank) \u2014 premium near 52W highs |\n| Daily RSI <= 40 | PASS | RSI 15.7 \u2014 extreme oversold, deep panic selling |\n| Near support | PASS | $271.41 52W low \u2014 price only 3.7% above. Major horizontal support zone |\n| Premium >= 1.0%/30 DTE | PASS | $268P: $2.69 = 1.0%; $270P: $3.35 = 1.2%; $275P: $4.75 = 1.7% |\n\n**Score: 4/4 \u2014 \ud83d\udfe2 GOOD SETUP**\n\n**Strike analysis (Nov 20, 18 DTE):**\n- **$280 strike** (0.6% OTM): $6.72 mid = 2.4% yield. Very aggressive \u2014 nearly ATM. Eff. basis $273.28.\n- **$275 strike** (2.3% OTM): $4.75 mid = 1.7% yield. Eff. basis $270.25. Just below 52W low.\n- **$270 strike** (4.1% OTM): $3.35 mid = 1.2% yield. Eff. basis $266.65. Below 52W low.\n- **$265 strike** (5.9% OTM): $2.24 mid = 0.85% yield. Eff. basis $262.76. Well below 52W low.\n- **$260 strike** (7.7% OTM): $1.51 mid = 0.58% yield. Very conservative.\n\n**Recommended: $270P Nov-20** \u2014 $3.35 mid, 1.2% yield for 18 days, effective cost basis $266.65 (1.8% below 52W low). Strong support at $271. Would I own GOOG at $266.65? Absolutely \u2014 34% discount from 52W high for a blue-chip with dominant AI/cloud/search franchise.\n\n---\n\n## 3) Covered Call \u2014 Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank >= 40% | PASS | ~95th percentile |\n| Daily RSI >= 60 | FAIL | RSI 15.7 \u2014 extreme oversold, nowhere near overbought |\n| Weekly RSI overbought | FAIL | Weekly RSI 18.0 \u2014 deeply oversold |\n| Premium >= 0.8% at ~0.20d | FAIL | 0.20d strikes ~$300+, selling at deep loss from any reasonable cost basis |\n\n**Score: 1/4 \u2014 \ud83d\udd34 SKIP**\n\nDo NOT sell covered calls. GOOG is in extreme oversold territory with RSI 15.7/18.0 daily/weekly. Selling calls here caps your recovery upside at the worst possible time. Wait for RSI >= 60 and price stabilization near resistance.\n\n---\n\n## 4) LEAPS Entry Monitor\n\n| Condition | Score | Detail |\n|-----------|-------|--------|\n| Daily RSI <= 35 | 1 | RSI 15.7 \u2014 extreme oversold |\n| Weekly RSI stabilizing | 1 | 18.0 \u2014 deeply oversold, approaching capitulation inflection |\n| Price within 5% support | 1 | 3.7% above 52W low $271.41 |\n| IV Rank < 30% | 0 | ~95% \u2014 LEAPS premium very expensive right now |\n| Options chain liquid | 1 | Sep-2027 $310C: $29.15 mid, OI 241, spread 4.7%. Dec-2027 $310C: $36.73, OI 213 |\n| Pullback >= 15% | 1 | 30.4% from 52W high, 26.2% from 3mo high |\n\n**GOOG $281.58 | Score: 5/6 but downgraded to \ud83d\udfe1 MONITORING due to IV cost**\n\nStock-level conditions nearly perfect but IV Rank at ~95% means LEAPS premium is very expensive. Better play: SELL CSP now to harvest elevated IV. Buy LEAPS when IV drops below 40%."
   },
   {
-    "date": "2026-10-30",
+    "date": "2026-11-02",
     "ticker": "NVDA",
     "prices": [
       {
         "label": "Current",
-        "value": 206.04
+        "value": 206.79
       },
       {
         "label": "Prev Close",
-        "value": 213.66
+        "value": 204.64
       },
       {
         "label": "52W High",
-        "value": 239.24
+        "value": 243.37
       },
       {
         "label": "52W Low",
-        "value": 164.79
+        "value": 164.27
       },
       {
         "label": "50-day MA",
-        "value": 221.71
+        "value": 221.75
       },
       {
         "label": "200-day MA",
-        "value": 204.1
+        "value": 204.38
       },
       {
         "label": "RSI (14)",
-        "value": 31.7
+        "value": 30.9
+      },
+      {
+        "label": "Weekly RSI",
+        "value": 52.9
       },
       {
         "label": "IV Rank",
-        "value": 14.3
+        "value": 37.7
       }
     ],
     "summary": [
-      "CSP: 🟡 MARGINAL (2/4) — RSI pullback to 200MA support, but IV low at 14% — thin premium",
-      "CC: 🔴 SKIP (0/4) — RSI 31.7, stock pulling back, don't cap recovery",
-      "LEAPS: 🟡 MONITORING (3/6) — Pullback developing but IV not low enough, no oversold signal yet",
-      "Best action: WAIT — IV too low for premium selling, stock not oversold enough for LEAPS"
+      "CSP: \ud83d\udfe1 MARGINAL (2/4) \u2014 RSI 30.9 + near 200MA support, but IV Rank 38% too low for compelling premium",
+      "CC: \ud83d\udd34 SKIP (1/4) \u2014 RSI 30.9 oversold, don't cap recovery; IV Rank too low",
+      "LEAPS: \ud83d\udfe1 MONITORING (3/6) \u2014 15% pullback developing, but IV not cheap enough and weekly RSI still mid-range",
+      "Best action: WAIT or small CSP at $195 if bullish. Setup not compelling enough for full position"
     ],
-    "body": "# NVDA Options Analysis — 2026-10-30\n**Price: $206.04** | Daily RSI: 31.7 | Weekly RSI: 49.7 | IV Rank: ~14% | Pullback: -13.9%\n200-day MA: $204.10 | 50-day MA: $221.71 | 52W High: $239.24 | 52W Low: $164.79\n\n---\n\n## 1) Strategy Selector\n\nNVDA is pulling back to the 200-day MA ($204.10) — just 1% above it. RSI at 31.7 is approaching oversold but not extreme. The key problem: IV rank is only ~14th percentile, meaning premium is cheap. Not a great environment for selling.\n\n**Decision flowchart:**\n- **IV environment:** LOW (14th percentile) — premium selling barely worth the capital tie-up. Buying premium is cheaper than usual, but conditions for LEAPS aren't all aligned.\n- **Conviction:** High on NVDA long-term (AI/datacenter leadership), but near-term technicals suggest more downside possible.\n- **Capital:** ~$19K for CSP at $190.\n\n**Recommendation:** WAIT. IV is too low to sell meaningful premium, and RSI hasn't hit extreme oversold. The 200MA test is interesting — if it holds and IV rises, a CSP setup could develop. For now, patience.\n\n---\n\n## 2) Cash-Secured Put — Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank ≥ 40% | ❌ FAIL | ~14th percentile — premium is cheap |\n| Daily RSI ≤ 40 | ✅ PASS | RSI 31.7 — approaching oversold |\n| Near support | ✅ PASS | 1% above 200MA ($204.10), $205.71 recent low |\n| Premium ≥ 1.0%/30 DTE | ❌ FAIL | $190P: $3.75 = 2.0% (passes), but $185P: $2.74 = 1.5% — premium looks decent in absolute terms but IV is low |\n\n**Score: 2/4 — 🟡 MARGINAL**\n\nThe pullback to the 200MA is constructive, but IV rank at 14% means you're selling cheap premium relative to NVDA's historical volatility range. Proceed with caution. If you insist:\n\n**Strike analysis (Nov 27, 28 DTE):**\n- **$200 strike** (2.9% OTM): $6.83 mid = 3.4% yield. Eff. basis $193.17. Just below 200MA.\n- **$195 strike** (5.4% OTM): $5.10 mid = 2.6% yield. Eff. basis $189.90.\n- **$190 strike** (7.8% OTM): $3.75 mid = 2.0% yield. Eff. basis $186.25.\n- **$185 strike** (10.2% OTM): $2.74 mid = 1.5% yield. Eff. basis $182.26.\n\nThe absolute premium looks decent because NVDA's base IV is naturally high (45%+ implied vol). But relative to its own range, this is low. The edge is thin.\n\n---\n\n## 3) Covered Call — Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank ≥ 40% | ❌ FAIL | ~14th percentile |\n| Daily RSI ≥ 60 | ❌ FAIL | RSI 31.7 — stock pulling back |\n| Weekly RSI overbought | ❌ FAIL | Weekly RSI 49.7 — neutral |\n| Premium ≥ 0.8% at ~0.20δ | ❌ FAIL | At 0.20δ (~$230-235), premium ~$2.34 = 1.1% — barely meets but IV too low |\n\n**Score: 0/4 — 🔴 SKIP**\n\nNo conditions met. Stock is pulling back, IV is low, weekly RSI neutral. Selling calls here caps upside into weakness for minimal premium. Wait.\n\n---\n\n## 4) LEAPS Entry Monitor\n\n| Condition | Score | Detail |\n|-----------|-------|--------|\n| Daily RSI ≤ 35 | ✅ 1 | RSI 31.7 — approaching oversold |\n| Weekly RSI stabilizing | ❌ 0 | 49.7, declining — not yet stabilized |\n| Price within 5% support | ✅ 1 | 1.0% above 200MA ($204.10) |\n| IV Rank < 30% | ✅ 1 | ~14% — LEAPS premium is relatively cheap |\n| Options chain liquid | ❌ 0 | Jun-2028 $225C: $39.88 mid, OI 1931, 2.1% spread — liquid but 595 DTE |\n| Pullback ≥ 15% | ❌ 0 | 13.9% from high — close but not quite 15% |\n\n**NVDA $206.04 | Score: 3/6 🟡 | RSI(31.7/49.7), IV Rank ~14%, +1.0% from 200MA, -13.9% pullback**\n\n🟡 MONITORING — Conditions are developing. Price at the 200MA is attractive, IV is low (good for buying LEAPS), but daily RSI hasn't hit 35, weekly RSI is still declining (no stabilization), and pullback is 13.9% (just shy of 15%). Another 3-5% drop with RSI stabilization would upgrade this to a 🟢 alert."
+    "body": "# NVDA Options Analysis \u2014 2026-11-02\n**Price: $206.79** | Daily RSI: 30.9 | Weekly RSI: 52.9 | IV Rank: ~38% (HV-based) | ATM IV: 46.0%\n200-day MA: $204.38 | 50-day MA: $221.75 | 52W High: $243.37 | 52W Low: $164.27\nPullback from 52W high: -15.0% | Pullback from 3mo high: -15.0% | Distance from 200MA: +1.2%\n\n---\n\n## 1) Strategy Selector\n\nNVDA has pulled back 15% from its 52W high and is sitting right on the 200-day MA ($204.38), a critical inflection point. Daily RSI at 30.9 is approaching oversold but not extreme. Weekly RSI at 52.9 is neutral. IV Rank at ~38% is moderate.\n\n**Recommendation:** WAIT or SELL A SMALL CSP. Setup is mixed \u2014 RSI approaching oversold and price at 200MA support are bullish, but IV Rank below 40% means you're not well-compensated for risk.\n\n---\n\n## 2) Cash-Secured Put \u2014 Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank >= 40% | FAIL | ~38th percentile \u2014 just below threshold |\n| Daily RSI <= 40 | PASS | RSI 30.9 \u2014 approaching oversold |\n| Near support | PASS | Price 1.2% above 200-day MA $204.38 \u2014 major dynamic support |\n| Premium >= 1.0%/30 DTE | BORDERLINE | $195P Nov-20: $4.25 = 2.18% (18 DTE) |\n\n**Score: 2/4 \u2014 \ud83d\udfe1 MARGINAL**\n\n**If proceeding (Nov 20, 18 DTE):**\n- **$200 strike** (3.3% OTM): $5.80 mid = 2.9% yield. Eff. basis $194.20.\n- **$195 strike** (5.7% OTM): $4.25 mid = 2.18% yield. Eff. basis $190.75.\n- **$190 strike** (8.1% OTM): $3.08 mid = 1.62% yield. Eff. basis $186.92.\n\n**If entering: $195P Nov-20** \u2014 eff. basis $190.75. Reasonable but not compelling.\n\n---\n\n## 3) Covered Call \u2014 Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank >= 40% | FAIL | ~38th percentile |\n| Daily RSI >= 60 | FAIL | RSI 30.9 \u2014 oversold |\n| Weekly RSI overbought | FAIL | Weekly RSI 52.9 \u2014 neutral |\n| Premium >= 0.8% at ~0.20d | PASS | $225C Nov-20: $2.85 = 1.38% |\n\n**Score: 1/4 \u2014 \ud83d\udd34 SKIP**\n\nNVDA is pulling back \u2014 don't cap recovery upside by selling calls into weakness.\n\n---\n\n## 4) LEAPS Entry Monitor\n\n| Condition | Score | Detail |\n|-----------|-------|--------|\n| Daily RSI <= 35 | 1 | RSI 30.9 \u2014 just meets threshold |\n| Weekly RSI stabilizing | 0 | 52.9 \u2014 neutral, not recovering from decline |\n| Price within 5% support | 1 | 1.2% above 200-day MA |\n| IV Rank < 30% | 0 | ~38% \u2014 premium not cheap |\n| Options chain liquid | 1 | Sep-2027 $225C: $26.25 mid, OI 10K, spread 1.1% \u2014 excellent |\n| Pullback >= 15% | 1 | 15.0% from 52W high (barely meets threshold) |\n\n**NVDA $206.79 | Score: 4/6 \ud83d\udfe1 MONITORING | RSI(30.9/52.9), IV Rank ~38%, +1.2% from 200MA, -15.0% pullback**\n\nWatch for: NVDA dipping to $190-$195 + IV compressing to <30% for a real LEAPS setup."
   },
   {
-    "date": "2026-10-30",
+    "date": "2026-11-02",
     "ticker": "TSLA",
     "prices": [
       {
         "label": "Current",
-        "value": 400.95
+        "value": 410.82
       },
       {
         "label": "Prev Close",
-        "value": 403.3
+        "value": 399.81
       },
       {
         "label": "52W High",
-        "value": 489.88
+        "value": 498.83
       },
       {
         "label": "52W Low",
-        "value": 298.32
+        "value": 297.38
       },
       {
         "label": "50-day MA",
-        "value": 369.63
+        "value": 369.6
       },
       {
         "label": "200-day MA",
@@ -119,19 +127,23 @@
       },
       {
         "label": "RSI (14)",
-        "value": 60.3
+        "value": 64.8
+      },
+      {
+        "label": "Weekly RSI",
+        "value": 76.3
       },
       {
         "label": "IV Rank",
-        "value": 17.8
+        "value": 16.5
       }
     ],
     "summary": [
-      "CSP: 🔴 SKIP (1/4) — IV rank 18%, RSI 60 (not oversold), no pullback to sell into",
-      "CC: 🟡 MARGINAL (2/4) — RSI 60 + weekly 74 (near overbought), but IV too low for great premium",
-      "LEAPS: 🔴 NO SETUP (1/6) — Stock near highs, IV low but no pullback or oversold signal",
-      "Best action: CONSIDER CC if already long — $430-$440 strikes, 1.6-1.9% yield"
+      "CSP: \ud83d\udd34 SKIP (1/4) \u2014 RSI 64.8 overbought, IV Rank 17% too low, not selling puts into strength",
+      "CC: \ud83d\udfe1 MARGINAL (2/4) \u2014 RSI 64.8 + weekly 76.3 overbought, but IV Rank 17% means thin premium",
+      "LEAPS: \ud83d\udd34 NO SETUP (1/6) \u2014 Overbought, extended above MAs, no pullback, wrong conditions entirely",
+      "Best action: SELL CC $445-$450 Nov-20 if holding shares. Otherwise WAIT for pullback"
     ],
-    "body": "# TSLA Options Analysis — 2026-10-30\n**Price: $400.95** | Daily RSI: 60.3 | Weekly RSI: 74.3 | IV Rank: ~18% | Pullback: -1.6%\n200-day MA: $385.30 | 50-day MA: $369.63 | 52W High: $489.88 | 52W Low: $298.32\n\n---\n\n## 1) Strategy Selector\n\nTSLA is strong — above both moving averages (4.1% above 200MA, 8.5% above 50MA). RSI at 60.3 on daily and 74.3 on weekly signal a stock in an uptrend nearing extended territory. IV rank is only ~18%, so option premium is cheap.\n\n**Decision flowchart:**\n- **IV environment:** LOW (18th percentile) — premium selling gives thin yields. Not ideal for CSPs.\n- **Conviction:** Moderate — TSLA's valuation always requires high conviction. Strong recent run.\n- **Capital:** ~$37K for CSP at $370.\n\n**Recommendation:** If you OWN shares, this is the closest to a covered call setup — RSI is near 60, weekly overbought. But IV at 18% makes the premium thin. If selling CCs, accept lower yield or wait for an IV spike. For new positions (CSP/LEAPS), WAIT — stock is extended, no pullback.\n\n---\n\n## 2) Cash-Secured Put — Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank ≥ 40% | ❌ FAIL | ~18th percentile — premium cheap |\n| Daily RSI ≤ 40 | ❌ FAIL | RSI 60.3 — stock is strong, not pulling back |\n| Near support | ✅ PASS | 4.1% above 200MA ($385.30), $345.88 as 1mo low |\n| Premium ≥ 1.0%/30 DTE | ❌ FAIL | $370P: $5.97 = 1.6% — meets nominally but IV is low |\n\n**Score: 1/4 — 🔴 SKIP**\n\nDon't sell puts into strength with low IV. You're selling cheap insurance on a stock that isn't discounted. Wait for a pullback to RSI ≤ 40 with elevated IV. The premium you'd collect doesn't compensate for the capital at risk.\n\n---\n\n## 3) Covered Call — Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank ≥ 40% | ❌ FAIL | ~18th percentile |\n| Daily RSI ≥ 60 | ✅ PASS | RSI 60.3 — stock extended |\n| Weekly RSI overbought | ✅ PASS | Weekly RSI 74.3 — overbought territory |\n| Premium ≥ 0.8% at ~0.20δ | ❌ FAIL | At ~$430-435 (0.20δ), premium $6.42-7.70 = 1.6-1.9% — meets threshold but IV context is low |\n\n**Score: 2/4 — 🟡 MARGINAL**\n\nTwo conditions met: RSI is extended on both timeframes, which is the right setup for selling calls. But IV at 18% means you're capping upside for relatively thin premium. Proceed with caution if you already own shares.\n\n**If selling CCs (existing position):**\n- **$430 strike** (7.2% OTM, 28 DTE): $7.70 mid = 1.9% yield. Near recent consolidation.\n- **$435 strike** (8.5% OTM): $6.42 mid = 1.6% yield.\n- **$440 strike** (9.7% OTM): $5.40 mid = 1.3% yield.\n\nThe $430 strike offers the best balance — 7.2% cushion above current price, 1.9% yield over 28 days. If called away at $430, you'd realize $430 + $7.70 = $437.70 effective exit.\n\nThe weekly RSI at 74.3 suggests the run may be getting tired. If you want to take some profits on a rally, the CC is a structured way to do it.\n\n---\n\n## 4) LEAPS Entry Monitor\n\n| Condition | Score | Detail |\n|-----------|-------|--------|\n| Daily RSI ≤ 35 | ❌ 0 | RSI 60.3 — not remotely oversold |\n| Weekly RSI stabilizing | ❌ 0 | 74.3 — overbought, not declining yet |\n| Price within 5% support | ❌ 0 | 4.1% above 200MA but 10.4% above 50MA, 34.4% above 52W low |\n| IV Rank < 30% | ✅ 1 | ~18% — LEAPS would be relatively cheap |\n| Options chain liquid | ❌ 0 | Jun-2028 $440C: $89.90 mid, OI 528, 2.0% spread — liquid but expensive stock |\n| Pullback ≥ 15% | ❌ 0 | Only -1.6% from 3mo high, -18.2% from 52W high |\n\n**TSLA $400.95 | Score: 1/6 🔴 | RSI(60.3/74.3), IV Rank ~18%, +4.1% from 200MA, -1.6% pullback**\n\n🔴 NO SETUP — Only the low IV rank passes. TSLA is extended, near highs, no pullback. LEAPS here would be buying into strength at high prices. The only positive is that IV is low, so premium is relatively cheap. But buying LEAPS on an overbought stock is chasing — wait for a meaningful pullback (15%+ with RSI < 35)."
+    "body": "# TSLA Options Analysis \u2014 2026-11-02\n**Price: $410.82** | Daily RSI: 64.8 | Weekly RSI: 76.3 | IV Rank: ~17% (HV-based) | ATM IV: 41.7%\n200-day MA: $385.30 | 50-day MA: $369.60 | 52W High: $498.83 | 52W Low: $297.38\nPullback from 52W high: -17.6% | Distance from 200MA: +6.6% | Up from 52W low: +38.1%\n\n---\n\n## 1) Strategy Selector\n\nTSLA is in rally mode \u2014 up 2.8% today, RSI 64.8 daily, 76.3 weekly. Extended above both MAs. IV Rank at ~17% is very low \u2014 premium is cheap relative to TSLA's own history.\n\n**Recommendation:** If holding shares, SELL A COVERED CALL into this strength. If not holding, WAIT. Don't sell puts into strength or buy LEAPS when overbought.\n\n---\n\n## 2) Cash-Secured Put \u2014 Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank >= 40% | FAIL | ~17th percentile \u2014 premium historically cheap |\n| Daily RSI <= 40 | FAIL | RSI 64.8 \u2014 overbought. Sell puts into weakness, not strength |\n| Near support | FAIL | Price 6.6% above 200MA \u2014 extended |\n| Premium >= 1.0%/30 DTE | PASS | $380P Nov-20: $5.42 = 1.43% |\n\n**Score: 1/4 \u2014 \ud83d\udd34 SKIP**\n\nDo NOT sell puts. TSLA is overbought and extended. Wait for pullback to $370-$380 with higher IV.\n\n---\n\n## 3) Covered Call \u2014 Entry Conditions\n\n| Condition | Status | Detail |\n|-----------|--------|--------|\n| IV Rank >= 40% | FAIL | ~17th percentile |\n| Daily RSI >= 60 | PASS | RSI 64.8 \u2014 overbought territory |\n| Weekly RSI overbought | PASS | Weekly RSI 76.3 \u2014 extended, confirming multi-timeframe overbought |\n| Premium >= 0.8% at ~0.20d | BORDERLINE | $445C Nov-20: $5.53 = 1.34%. Meets threshold |\n\n**Score: 2/4 \u2014 \ud83d\udfe1 MARGINAL**\n\nDirectional setup is good (overbought both timeframes), but IV Rank at 17% means thin premium. Proceed with caution.\n\n**If proceeding (Nov 20, 18 DTE):**\n- **$445 strike** (8.3% OTM): $5.53 mid = 1.34% yield. Near $440-$450 resistance.\n- **$450 strike** (9.5% OTM): $4.50 mid = 1.10% yield. More upside room.\n- **$440 strike** (7.1% OTM): $6.70 mid = 1.63% yield.\n\n**Recommended: $445C or $450C Nov-20** if holding shares. Weekly RSI 76.3 supports the thesis that TSLA is unlikely to rip another 10% without a pullback.\n\n---\n\n## 4) LEAPS Entry Monitor\n\n| Condition | Score | Detail |\n|-----------|-------|--------|\n| Daily RSI <= 35 | 0 | RSI 64.8 \u2014 overbought |\n| Weekly RSI stabilizing | 0 | 76.3 \u2014 extended upside |\n| Price within 5% support | 0 | 6.6% above 200MA \u2014 extended |\n| IV Rank < 30% | 1 | ~17% \u2014 LEAPS premium is cheap |\n| Options chain liquid | 0 | Liquid but expensive at current levels |\n| Pullback >= 15% | 0 | Only -0.8% from 3mo high |\n\n**TSLA $410.82 | Score: 1/6 \ud83d\udd34 NO SETUP | RSI(64.8/76.3), IV Rank ~17%, +6.6% from 200MA, -0.8% pullback**\n\nConditions opposite of a LEAPS entry. Wait for 15-20% pullback to $330-$350."
   }
 ]
